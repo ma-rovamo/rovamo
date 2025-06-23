@@ -6835,13 +6835,13 @@ label {
   color: #fff !important;
 }
 .header_style_3.cs-gescout_show{
-  background-color: #2b00a5;
+  background-color: #000;
 }
 .header_sticky_style1.cs-gescout_sticky{
-  background-color: #6a47ed;
+  background-color: #000;
 }
 .header_sticky_style1.cs_site_header.header_style_2.cs_style_1 .container::before {
-  background-color: #6a47ed;
+  background-color: #000;
 }
 .header_sticky_style1.cs-gescout_sticky .cs_nav .cs_nav_list>li>a{
   color: #fff;
