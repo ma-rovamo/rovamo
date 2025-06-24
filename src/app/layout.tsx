@@ -18,15 +18,40 @@ const roboto = Roboto({
 export const metadata = {
   title: {
     absolute: '',
-    default: 'Agenko - Creative Digital Agency NextJS Template',
-    template: '%s | Agenko - Creative Digital Agency NextJS Template',
+    default: 'Rovamo - AI-Powered Innovation for Tomorrow\'s Products',
+    template: '%s | Rovamo - AI-Powered Innovation',
   },
-  description: 'Agenko - Creative Digital Agency NextJS Template',
+  description: 'Transform ideas into intelligent solutions with AI consulting, 48-hour MVP development, and rapid digital transformation. Get results in days, not months.',
+  keywords: 'AI consulting, MVP development, product design, web development, digital transformation, artificial intelligence',
   openGraph: {
-    title: 'Agenko - Creative Digital Agency NextJS Template',
-    description: 'Agenko - Creative Digital Agency NextJS Template',
+    title: 'Rovamo - AI-Powered Innovation for Tomorrow\'s Products',
+    description: 'Transform ideas into intelligent solutions with AI consulting, 48-hour MVP development, and rapid digital transformation. Get results in days, not months.',
+    url: 'https://rovamo.com',
+    siteName: 'Rovamo Agency',
+    images: [
+      {
+        url: '/logo.png',
+        width: 1200,
+        height: 630,
+        alt: 'Rovamo Agency',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Rovamo - AI-Powered Innovation for Tomorrow\'s Products',
+    description: 'Transform ideas into intelligent solutions with AI consulting, 48-hour MVP development, and rapid digital transformation. Get results in days, not months.',
+    images: ['/images/rovamo-twitter-card.jpg'],
+  },
+  icons: {
+    icon: '/favicon.ico',
+    apple: '/apple-touch-icon.png',
+  },
+  metadataBase: new URL('https://rovamo.com'),
 };
+
 
 export default function RootLayout({ children } : any ) {
   return (

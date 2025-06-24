@@ -1,17 +1,16 @@
-import BreadCumb from '../../Components/Common/BreadCumb';
-import Contact from '../../Components/Contact/Contact';
-import React from 'react';
+import BreadCumb from "../../Components/Common/BreadCumb";
+import Contact from "../../Components/Contact/Contact";
+import React from "react";
 
 const page = () => {
-  return (
-    <div>
-            <BreadCumb
-                Title="Contact"
-                content="Agenko empowers businesses with innovative strategies & creative agency solutions"
-            ></BreadCumb>   
-            <Contact></Contact>       
-    </div>
-  );
+	return (
+		<div>
+			<BreadCumb
+				Title="Contact"
+				content="Ready to transform your ideas with AI-powered innovation? Let's accelerate your next breakthrough project"></BreadCumb>
+			<Contact></Contact>
+		</div>
+	);
 };
 
 export default page;

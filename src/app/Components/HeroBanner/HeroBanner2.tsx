@@ -12,16 +12,16 @@ const HeroBanner2 = () => {
             <div className="shape circle-two"><span></span></div>
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-12">
-                        <div className="hero-content">
-                            <h1>
-                                <span className="text-anm">Digital Modern</span>
-                                <span className="text-anm">Agency</span>
+                    <div className="col-lg-12 ">
+                        <div className="hero-content  ">
+                            <h1 >
+                                <span className="text-anm">AI-Powered Innovation  </span>
+                                <span >for Tomorrow's Products</span>
                             </h1>
-                            <div className="pro">Pro</div>
-                            <div className="text-box pf_fadeup">
-                                <p>A <span>Digital Modern Agency</span> specializing in innovative web app design branding, and marketing solutions to elevate your business.</p>
-                                <div className="hero-button">
+                            {/* <div className="pro">Pro</div> */}
+                            <div className="text-box pf_fadeup ">
+                                <p>From <span> 48-hour MVPs</span> to 7-day complete solutions, we leverage AI acceleration to deliver what traditional agencies build in months without compromising quality.</p>
+                                <div className="hero-button ms-5">
                                     <Link href="/about" className="theme-btn style-one">
                                         <span className="text-flip">
                                             <span className="text">LEARN MORE</span>

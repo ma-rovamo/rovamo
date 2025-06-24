@@ -37,8 +37,9 @@ const Testimonial2 = () => {
       };  
 
     const testimonialContent = [
-        {subtitle:'CEO & Founder', title:'Ms. Alex Mika', content:'Binorly Agency completely transformed our online presence! Their exceptional website development expertise went beyond expectations, creating a visually stunning and user-friendly website.'},
-        {subtitle:'CEO & Founder', title:'Ms. Alex Mika', content:'Binorly Agency completely transformed our online presence! Their exceptional website development expertise went beyond expectations, creating a visually stunning and user-friendly website.'},
+        {subtitle:'CEO & Founder', title:'Murtaza Akbar', content:'Murtaza delivered our AI strategy in 7 days. We started implementation immediately and saw results within weeks Senior Director Healthcare Enterprise Rating: 5 stars'},
+        {subtitle:'Founder', title:'Founder', content:'48-hour MVP development seemed impossible until Rovamo proved it works. We launched and got our first customers the same week. FinTech Startup Rating: 5 stars'}, 
+        {subtitle:'Marketing Director', title:'Marketing Director', content:'The 7-day website project exceeded our expectations. Performance and conversion rates improved dramatically Marketing Director Company: E-commerce Platform Rating: 5 stars'},
       ]; 
 
     return (
@@ -49,20 +50,20 @@ const Testimonial2 = () => {
                             
                             <div className="section-title text-center mb-50 pf_fadeup">
                                 <span className="sub-title">Testimonials</span>
-                                <h2>Success Stories From Around the Globe</h2>
+                                <h2>Trusted by startups and Fortune 500 companies worldwide</h2>
                             </div>
                         </div>
                     </div>
                     <div className="row align-items-center">
-                        <div className="col-lg-5">
+                        {/* <div className="col-lg-5">
                             
                             <div className="agk-image-box mb-50 pf_fadeup">
                                 <div className="agk-image">
                                 <Image src="/assets/images/digital-agency/testimonial/testimonial_img1.jpg" className="animated-image" alt="img" width={524} height={509}   />
                                 </div>
                             </div>
-                        </div>
-                        <div className="col-lg-7">
+                        </div> */}
+                        <div className="col-lg-12">
                             <div className="testimonial-wrapper mb-50 pf_fadeup">
                                 
                                 <div className="testimonial-slider">

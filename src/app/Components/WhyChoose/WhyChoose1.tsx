@@ -9,9 +9,9 @@ const WhyChoose1 = () => {
                             <div className="agenko-content-box mb-50 pf_fadeup">
                                 <div className="seciton-title mb-30">
                                     <span className="sub-title">Why Choose Us</span>
-                                    <h2>Your Trusted Partner for Success & Innovation</h2>
+<h2>Your Trusted Partner for AI-Powered Innovation</h2>
                                 </div>
-                                <p className="mb-35">At Agenko Agency, we specialize in delivering strategic growth solutions tailored to elevate your business to new heights. By combining and innovative strategies, data-driven insights, and creative.</p>
+<p className="mb-35">At Rovamo, we specialize in delivering AI-accelerated solutions that transform your business in days, not months. By combining cutting-edge AI technology, proven development methodologies, and 15+ years of expertise, we turn your ideas into intelligent solutions that drive real business impact.</p>
                                 
                                 <div className="agenko-skill-list">
                                     

@@ -32,8 +32,8 @@ const Contact = () => {
                                         <div className="agenko-info-box">
                                             <div className="content">
                                                 <h3>Email</h3>
-                                                <p><a href="mailto:Info@agenko45.com">Info@agenko45.Com</a></p>
-                                                <p><a href="mailto:Info@agenko45.com">Info@agenko45.Com</a></p>
+                                                <p><a href="mailto:Info@agenko45.com">ma@hellorovamo.com</a></p>
+                                                
                                             </div>
                                         </div>
                                     </li>
@@ -43,10 +43,9 @@ const Contact = () => {
                                             <div className="content">
                                                 <h3>Follow</h3>
                                                 <div className="social-link">
-                                                    <a href="#"><i className="bi bi-facebook"></i></a>
-                                                    <a href="#"><i className="bi bi-instagram"></i></a>
+                                                   
                                                     <a href="#"><i className="bi bi-linkedin"></i></a>
-                                                    <a href="#"><i className="bi bi-twitter-x"></i></a>
+                                                  
                                                 </div>
                                             </div>
                                         </div>

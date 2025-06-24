@@ -4,14 +4,14 @@ import React, { useEffect, useRef, useState } from 'react';
 
 const Faq1 = () => {
 
-    const faqContent = [
-        {title:'What services does your agency provide?', content:'We build websites using content management systems (CMS) like WordPress, Shopify, or custom CMS, which allows you to easily update your content, add pages, and make changes without any coding knowledge.'},
-        {title:'Can I update the website content myself?', content:'We build websites using content management systems (CMS) like WordPress, Shopify, or custom CMS, which allows you to easily update your content, add pages, and make changes without any coding knowledge.'},
-        {title:'How does the web design process work?', content:'We build websites using content management systems (CMS) like WordPress, Shopify, or custom CMS, which allows you to easily update your content, add pages, and make changes without any coding knowledge.'},
-        {title:' How long will my project take to complete?', content:'We build websites using content management systems (CMS) like WordPress, Shopify, or custom CMS, which allows you to easily update your content, add pages, and make changes without any coding knowledge.'},
-        {title:'Do you offer website maintenance and support?', content:'We build websites using content management systems (CMS) like WordPress, Shopify, or custom CMS, which allows you to easily update your content, add pages, and make changes without any coding knowledge.'},
-        {title:'Can you redesign my existing website?', content:'We build websites using content management systems (CMS) like WordPress, Shopify, or custom CMS, which allows you to easily update your content, add pages, and make changes without any coding knowledge.'},
-      ]; 
+      const faqContent = [
+        {title:'What services does Rovamo provide?', content:'Rovamo specializes in creating modern, responsive websites and web applications. We offer UI/UX design, full-stack development, e-commerce solutions, and custom web application development tailored to your specific business needs and goals.'},
+        {title:'Can I update the website content myself?', content:'Absolutely! All websites built by Rovamo include user-friendly content management systems (CMS) that allow you to easily update text, images, add new pages, and make changes without any coding knowledge. We also provide training to ensure youre comfortable managing your site.'},
+        {title:"How does Rovamo's web design process work?", content:'Our process begins with a discovery phase to understand your goals, followed by wireframing and design concepts. After your approval, we move to development, testing, and launch. Throughout the entire process, we maintain clear communication and regular updates to ensure your vision is realized.'},
+        {title:'How long will my project take to complete?', content:'Project timelines vary based on complexity and scope. A basic website typically takes 4-6 weeks, while more complex projects may take 2-3 months. During our initial consultation, well provide a detailed timeline specific to your project requirements and goals.'},
+        {title:'Does Rovamo offer website maintenance and support?', content:'Yes, we offer various maintenance packages to keep your site secure, up-to-date, and performing optimally. Our support includes regular updates, security monitoring, performance optimization, and technical assistance whenever you need help with your website.'},
+        {title:'Can Rovamo redesign my existing website?', content:'Definitely! We specialize in website redesigns that improve both aesthetics and functionality. Our team will analyze your current site, identify areas for improvement, and create a modern, effective design that enhances user experience while maintaining your brand identity.'},
+      ];
 
       const accordionContentRef = useRef(null);
       const [openItemIndex, setOpenItemIndex] = useState(-1);

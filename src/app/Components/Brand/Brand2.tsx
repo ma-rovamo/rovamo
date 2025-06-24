@@ -22,8 +22,8 @@ const Brand2 = () => {
                         <div className="col-lg-12">
                             
                             <div className="section-title text-center mb-50 pf_zoomIn">
-                                <span className="sub-title">Our Client</span>
-                                <h2>Our Global Client</h2>
+                                <span className="sub-title">Trusted by Industry Leaders</span>
+                                {/* <h2>Our Global Client</h2> */}
                             </div>
                         </div>
                     </div>
