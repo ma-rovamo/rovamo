@@ -17,16 +17,16 @@ const page = () => {
     return (
         <div>
             <HeroBanner2></HeroBanner2>
-            <Services2></Services2>
             <About1></About1>
+            <Services2></Services2>
             <Project2></Project2>
             <WhoWeAre></WhoWeAre>
             <CallToAction/>
-            {/* <Process2></Process2> */}
             <Testimonial2></Testimonial2>
             <Faq1></Faq1>
-            {/* <Team2></Team2> */}
             <Brand4></Brand4>  
+            {/* <Process2></Process2> */}
+            {/* <Team2></Team2> */}
             {/* <Blog2></Blog2>           */}
         </div>
     );
@@ -34,4 +34,3 @@ const page = () => {
 
 export default page;
 
-// changes

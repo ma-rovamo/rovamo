@@ -36,12 +36,12 @@ const BreadCumb = ({Title,content} : any ) => {
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-3">
+                {/* <div className="col-lg-3">
                     
                     <div className="circle-box float-xl-end text-center text-xl-end">
                         <Image className="rotate360" src="/assets/images/pages/shape/circle-shape1.png" alt="img" width={135} height={135}   />
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     </section>

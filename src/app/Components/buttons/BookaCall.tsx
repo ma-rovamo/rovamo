@@ -1,25 +1,21 @@
-"use client";
-
-import React, { useState } from "react";
+import React from "react";
 import Image from "next/image";
-import { Modal, Button } from "react-bootstrap";
+import {Button } from "react-bootstrap";
+import Link from "next/link";
 interface BookACallModalProps {
 	showImage?: boolean;
 	buttonText:string;
 	
 }
 export default function BookACallModal({buttonText,showImage}:BookACallModalProps) {
-	const [show, setShow] = useState(false);
-
-	const handleClose = () => setShow(false);
-	const handleShow = () => setShow(true);
 
 	return (
 		<>
+		<Link href={'https://cal.com/murtaza-akbar/discovery' } target="_blank" >
 			<Button
 			variant="dark"
 				className="d-flex align-items-center gap-2 px-3 py-2  rounded-pill shadow-sm gray-dark border-0 "
-				onClick={handleShow}>
+				>
 				<div className="position-relative">
 					{ showImage&&
 
@@ -36,8 +32,9 @@ export default function BookACallModal({buttonText,showImage}:BookACallModalProp
 					{buttonText}
 				</span>
 			</Button>
+			</Link>
 
-			<Modal
+			{/* <Modal
 				show={show}
 				onHide={handleClose}
 				size="lg"
@@ -74,7 +71,7 @@ export default function BookACallModal({buttonText,showImage}:BookACallModalProp
 						/>
 					)}
 				</Modal.Body>
-			</Modal>
+			</Modal> */}
 		</>
 	);
 }

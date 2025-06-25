@@ -7299,72 +7299,8 @@ label {
   display: block;
 }
 
+
 /* my css */
-
-/* Significantly reduced hero heading font size */
-.agk-hero h1 {
-  font-size: 7rem !important;
-  line-height: 1;
-}
-
-/* Make sure the first line stays on one line */
-.agk-hero h1 .text-anm {
-  white-space: nowrap;
-}
-
-/* Reduce paragraph text size */
-.agk-hero .text-box p {
-  font-size: 0.9rem !important;
-  line-height: 1.5;
-}
-
-/* Responsive adjustments with smaller sizes */
-@media (max-width: 1199px) {
-  .agk-hero h1 {
-    font-size: 4.8rem !important;
-  }
-}
-
-@media (max-width: 991px) {
-  .agk-hero h1 {
-    font-size: 3.7rem !important;
-  }
-}
-
-@media (max-width: 767px) {
-  .agk-hero h1 {
-    font-size: 1.6rem !important;
-    text-align: center;
-  }
-  
-  .agk-hero .text-box {
-    margin-left: 0 !important;
-    text-align: center;
-  }
-  
-  .agk-hero .hero-button {
-    margin-left: 0 !important;
-    display: flex;
-    justify-content: center;
-  }
-}
-
-@media (max-width: 575px) {
-  .agk-hero h1 {
-    font-size: 1.4rem !important;
-  }
-  
-  .agk-hero .text-box p {
-    font-size: 0.85rem !important;
-  }
-  
-  .service-list .title {
-    font-size: 0.9rem !important;
-  }
-}
-
-@media (max-width: 480px) {
-  .agk-hero h1 {
-    font-size: 2.3rem !important;
-  }
+.pointer{
+  cursor: pointer;
 }

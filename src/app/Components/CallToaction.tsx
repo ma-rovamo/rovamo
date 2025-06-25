@@ -13,7 +13,7 @@ const CallToAction = () => {
                             <h2 className="mb-3">Ready to Transform Your Ideas into Intelligent Solutions?</h2>
                             <p className="mb-0 fs-5">From 48-hour MVPs to complete AI-powered products, we deliver what  traditional agencies build in months.</p>
                           <div className="cta-button d-flex justify-content-center text-center mt-md-0 mt-4 py-4 pf_fadeup">
-                           <BookACallModal buttonText='Book A Call'/>
+                           <BookACallModal buttonText='Book a Call with Murtaza' showImage={true}/>
                         </div>
                         </div>
                     </div>

@@ -42,7 +42,9 @@ export default function Header1({ variant }: any) {
 						<div className="cs_main_header_in">
 							<div className="cs_main_header_left">
 								<Link className="cs_site_branding" href="/">
-									<Image src="/logo.png" alt="img" width={151} height={40} />
+									<span style={{ fontSize: "24px", fontWeight: "bold" }}>
+										Rovamo
+									</span>
 								</Link>
 							</div>
 							<div className="cs_main_header_center">
@@ -68,7 +70,10 @@ export default function Header1({ variant }: any) {
                         <span className="text">LETS TALK</span>
                     </span>
                 </Link>                   */}
-										<BookACallModal buttonText="Book a Call with Murtaza" showImage={true} />
+										<BookACallModal
+											buttonText="Book a Call with Murtaza"
+											showImage={true}
+										/>
 									</div>
 								</div>
 							</div>

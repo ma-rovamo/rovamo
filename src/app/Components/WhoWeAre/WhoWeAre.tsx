@@ -20,12 +20,12 @@ const WhoWeAre = () => {
 	return (
 		<section className="agk-who-we gray-dark pt-130 pb-70">
 			<div className="container">
-				<div className="row">
-					<div className="col-xl-5">
-						<div className="agk-content-box mb-50 pf_fadeup">
-							<div className="section-title mb-30">
+				<div className="row align-items-center">
+						<div className="col-12 col-xl-5 mb-4 mb-xl-0">
+						<div className="agk-content-box pf_fadeup">
+								<div className="section-title mb-4">
 								<span className="sub-title">How We Deliver Results</span>
-								<h4>
+								<h4 className="fs-3">
 									Our proven process that transforms business challenges into
 									digital solutions
 								</h4>
@@ -107,14 +107,33 @@ const WhoWeAre = () => {
 						</div>
 					</div>
 				</div>
+<div className="row m-0">
+  <div className="col-12 px-3">
+    <div
+      className="big-text text-center mt-5 pt-5"
+      style={{
+        overflow: "hidden",         // hides any scroll
+        whiteSpace: "nowrap",       // keeps text in one line
+        textOverflow: "ellipsis",   // trims safely if needed
+      }}
+    >
+      <h2
+        className="text-anm-two d-inline-block"
+        style={{
+          fontSize: "clamp(1.5rem, 6vw, 4rem)",
+          maxWidth: "100%",
+        }}
+      >
+        AI-POWERED INNOVATION
+      </h2>
+    </div>
+  </div>
+</div>
+
+
 			</div>
-			<div className="row">
-				<div className="col-lg-12">
-					<div className="big-text text-center mt-80 pt-70">
-						<h2 className="text-anm-two">AI-Powered Innovation</h2>
-					</div>
-				</div>
-			</div>
+	
+
 			<VideoModal
 				isTrue={toggle}
 				iframeSrc={iframeSrc}

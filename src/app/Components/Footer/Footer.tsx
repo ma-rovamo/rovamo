@@ -37,15 +37,11 @@ const Footer = () => {
 							<div className="footer-widget footer-about-widget mb-40 pf_fadeup">
 								<div className="footer-content">
 									<div className="footer-logo">
-										<a href="#">
-											{" "}
-											<Image
-												src="/logo.png"
-												alt="img"
-												width={151}
-												height={40}
-											/>
-										</a>
+										<Link className="cs_site_branding" href="/">
+											<span style={{ fontSize: "24px", fontWeight: "bold" }}>
+												Rovamo
+											</span>
+										</Link>
 									</div>
 									<p>
 										Rovamo Agency Crafting intelligent solutions for tomorrow's
@@ -72,28 +68,28 @@ const Footer = () => {
 						<div className="col-lg-3 col-md-6">
 							<div className="footer-widget footer-contact-info-widget mb-40 pf_fadeup">
 								<div className="footer-content mb-35">
-											<h4 className="widget-title">Quick Links</h4>
-											<ul className="footer-nav">
-												<li>
-													<Link href="/service">AI Consulting</Link>
-												</li>
-												<li>
-													<Link href="/service">MVP Development</Link>
-												</li>
-												<li>
-													<Link href="/service">Product Design</Link>
-												</li>
-												<li>
-													<Link href="/service">Web Development</Link>
-												</li>
-												<li>
-													<Link href="/service">No-Code Development</Link>
-												</li>
-												<li>
-													<Link href="/contact">Requirements Consulting</Link>
-												</li>
-											</ul>
-										</div>
+									<h4 className="widget-title">Quick Links</h4>
+									<ul className="footer-nav">
+										<li>
+											<Link href="/service">AI Consulting</Link>
+										</li>
+										<li>
+											<Link href="/service">MVP Development</Link>
+										</li>
+										<li>
+											<Link href="/service">Product Design</Link>
+										</li>
+										<li>
+											<Link href="/service">Web Development</Link>
+										</li>
+										<li>
+											<Link href="/service">No-Code Development</Link>
+										</li>
+										<li>
+											<Link href="/contact">Requirements Consulting</Link>
+										</li>
+									</ul>
+								</div>
 							</div>
 						</div>
 						<div className="col-lg-5 col-md-12 col-sm-12">
@@ -139,12 +135,12 @@ const Footer = () => {
 											</div>
 											<div className="agenko-iconic-box style-three">
 												<div className="icon">
-													<i className="bi bi-telephone"></i>
+													<i className="bi bi-laptop"></i>
 												</div>
 												<div className="content">
-													<h6>Phone</h6>
+													<h6>Work Mode</h6>
 													<p>
-														<a href="tel:+555-7659-9854">+555-7659-9854</a>
+													Remote Work Only
 													</p>
 												</div>
 											</div>
