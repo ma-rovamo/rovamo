@@ -88,7 +88,7 @@ const Faq1 = () => {
 										}`}>
 										<div
 											onClick={() => handleItemClick(index)}
-											className="pointer">
+											className="faqcursor">
 											<h6
 												className="accordion-title position-relative pe-4"
 												data-bs-toggle="collapse"

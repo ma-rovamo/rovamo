@@ -36,12 +36,12 @@ const Footer = () => {
 						<div className="col-lg-4 col-md-6 col-sm-6">
 							<div className="footer-widget footer-about-widget mb-40 pf_fadeup">
 								<div className="footer-content">
-									<div className="footer-logo">
-										<Link className="cs_site_branding" href="/">
-											<span style={{ fontSize: "24px", fontWeight: "bold" }}>
-												Rovamo
-											</span>
-										</Link>
+									<div >
+										<Link className="" href="/">
+									<p className="fs-3 text-white">
+										Rovamo
+									</p>
+								</Link>
 									</div>
 									<p>
 										Rovamo Agency Crafting intelligent solutions for tomorrow's

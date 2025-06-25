@@ -1,37 +1,37 @@
 import React from "react";
 import Image from "next/image";
-import {Button } from "react-bootstrap";
+import { Button } from "react-bootstrap";
 import Link from "next/link";
 interface BookACallModalProps {
 	showImage?: boolean;
-	buttonText:string;
-	
+	buttonText: string;
 }
-export default function BookACallModal({buttonText,showImage}:BookACallModalProps) {
-
+export default function BookACallModal({
+	buttonText,
+	showImage,
+}: BookACallModalProps) {
 	return (
 		<>
-		<Link href={'https://cal.com/murtaza-akbar/discovery' } target="_blank" >
-			<Button
-			variant="dark"
-				className="d-flex align-items-center gap-2 px-3 py-2  rounded-pill shadow-sm gray-dark border-0 "
-				>
-				<div className="position-relative">
-					{ showImage&&
-
-						<Image
-						src="/murtaza.jpg"
-						alt="Murtaza"
-						width={32}
-						height={32}
-						className="rounded-circle border border-light"
-						/>
-					}
-				</div>
-				<span className="fs-6 fw-semibold text-light">
-					{buttonText}
-				</span>
-			</Button>
+			<Link href={"https://cal.com/murtaza-akbar/discovery"} target="_blank">
+				<Button
+					variant="dark"
+					className="d-flex align-items-center gap-2 px-3 py-2 remove-bg theme-btn style-one   rounded-pill shadow-sm gray-dark border-0 ">
+					<div className="position-relative">
+						{showImage && (
+							<Image
+								src="/murtaza.png"
+								alt="Murtaza"
+								width={32}
+								height={32}
+								className="rounded-circle border border-light"
+							/>
+						)}
+					</div>
+					<span className="text-flip">
+						<span className="text text-uppercase">{buttonText}</span>
+						<span className="text text-uppercase">{buttonText}</span>
+					</span>
+				</Button>
 			</Link>
 
 			{/* <Modal

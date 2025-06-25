@@ -21,11 +21,11 @@ const page = () => {
             <Services2></Services2>
             <Project2></Project2>
             <WhoWeAre></WhoWeAre>
+            <Process2></Process2>
             <CallToAction/>
             <Testimonial2></Testimonial2>
             <Faq1></Faq1>
             <Brand4></Brand4>  
-            {/* <Process2></Process2> */}
             {/* <Team2></Team2> */}
             {/* <Blog2></Blog2>           */}
         </div>

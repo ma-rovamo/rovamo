@@ -41,10 +41,10 @@ export default function Header1({ variant }: any) {
 					<div className="container">
 						<div className="cs_main_header_in">
 							<div className="cs_main_header_left">
-								<Link className="cs_site_branding" href="/">
-									<span style={{ fontSize: "24px", fontWeight: "bold" }}>
+								<Link  href="/">
+									<p className="fs-3  text-white">
 										Rovamo
-									</span>
+									</p>
 								</Link>
 							</div>
 							<div className="cs_main_header_center">

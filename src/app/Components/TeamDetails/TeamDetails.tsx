@@ -10,7 +10,7 @@ const TeamDetails = () => {
                             <div className="col-lg-5">
                                 <div className="agenko-image-box mb-50 pf_fadeup">
                                     <div className="agenko-image">
-                                    <Image src="/murtaza.jpg" alt="img" width={410} height={414}   />
+                                    <Image src="/murtaza.png" alt="img" width={410} height={414}   />
                                     </div>
                                 </div>
                             </div>

@@ -10,7 +10,8 @@ const Services2 = () => {
                                     
                                     <div className="section-title mb-65 pf_fadeup">
                                         <span className="sub-title">Our Expertise</span>
-                                        {/* <h2>From AI strategy to full-stack development, we deliver comprehensive solutions that scale your business</h2> */}
+                                          <h2>Building Tomorrow Digital 
+                                            Experiences Today</h2>
                                     </div>
                                 </div>
                                 <div className="col-lg-5">

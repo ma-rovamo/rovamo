@@ -17,8 +17,9 @@ const Project2 = () => {
                 <div className="col-lg-7">
                     
                     <div className="section-title mb-60 pf_fadeup">
-                        <span className="sub-title">Featured Work</span>
-                        <h4>Showcasing our latest projects that demonstrate innovation technical excellence, and measurable results</h4>
+                        <span className="sub-title">Our Work</span>
+                        <h2>Building Tomorrow Digital 
+                            Experiences Today</h2>
                     </div>
                 </div>
                 <div className="col-lg-5">
