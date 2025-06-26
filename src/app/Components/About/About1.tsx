@@ -12,11 +12,10 @@ const About1 = () => {
                     <div className="agk-content-box style-one mb-50 pf_fadeup">
                         <div className="section-title mb-20">
                             <span className="sub-title">About us</span>
-                            <h2>Strategic growth powered 
-                            by Agenko Agency!</h2>
+                            <h2>Fast digital transformation with proven expertise!</h2>
                         </div>
-                        <p>At Agenko Agency, we specialize in delivering strategic growth solutions tailored to elevate your business to new heights. By combining innovative strategies, data-driven insights, and creative expertise, we help companies unlock their full.</p>
-                    <p>Our dedicated team works closely with clients to understand their unique goals, crafting customized plans that drive measurable results.</p>
+                        <p>We specialize in delivering strategic solutions that elevate your business through innovative development approaches. By combining rapid delivery methods, proven expertise, and creative problem-solving, we help companies achieve their digital transformation goals.</p>
+                    <p>Our dedicated team works closely with clients to understand unique challenges, crafting customized solutions that drive measurable results.</p>
                     <div className="agk-button mb-30">
                         <Link href="/about" className="theme-btn style-one">
                             <span className="text-flip">
@@ -30,8 +29,8 @@ const About1 = () => {
                             
                             <div className="agenko-counter-box style-one">
                                 <div className="content">
-                                    <h2 className="mb-10"><span className="count">240</span>+</h2>
-                                    <p>Projects success rate 99%</p>
+                                    <h2 className="mb-10"><span className="count">15</span>+</h2>
+                                    <p>Years Experience</p>
                                 </div>
                             </div>
                         </li>
@@ -39,11 +38,12 @@ const About1 = () => {
                             
                             <div className="agenko-counter-box style-one">
                                 <div className="content">
-                                    <h2 className="mb-10"><span className="count">23</span>+</h2>
-                                    <p>Award for digital innovation</p>
+                                    <h2 className="mb-10"><span className="count">50</span>+</h2>
+                                    <p>Successful Projects Delivered</p>
                                 </div>
                             </div>
                         </li>
+                        
                     </ul>
                     </div>
                 </div>

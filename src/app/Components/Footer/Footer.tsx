@@ -138,7 +138,7 @@ const Footer = () => {
 													<i className="bi bi-laptop"></i>
 												</div>
 												<div className="content">
-													<h6>Work Mode</h6>
+													<h6>Location</h6>
 													<p>
 													Remote Work Only
 													</p>

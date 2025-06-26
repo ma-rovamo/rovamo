@@ -9,8 +9,8 @@ const page = () => {
 	return (
 		<div>
 			<BreadCumb
-				Title="Services Details"
-				content="Complete AI-powered solutions delivered in days with proven methodologies and guaranteed results"></BreadCumb>
+				Title="AI Consulting "
+				content="Strategic AI implementation and automation workflows that transform operations and drive measurable business results"></BreadCumb>
 			<ServiceDetails></ServiceDetails>
 			<Process3></Process3>
 			<Pricing1></Pricing1>

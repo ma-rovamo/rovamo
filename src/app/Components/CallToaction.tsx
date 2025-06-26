@@ -12,11 +12,11 @@ const CallToAction = () => {
 					<div className="col-lg-12 col-md-12 col-12 ">
 						<div className="cta-content text-white pf_fadeup">
 							<h2 className="mb-3">
-								Ready to Transform Your Ideas into Intelligent Solutions?
+								Ready to Transform Your Ideas into Intelligent Solutions?{" "}
 							</h2>
 							<p className="mb-0 fs-5">
 								From 48-hour MVPs to complete AI-powered products, we deliver
-								what traditional agencies build in months.
+								what traditional agencies build in months
 							</p>
 							<div className="cta-button d-flex justify-content-center text-center mt-md-0 mt-4 py-4 pf_fadeup">
 								<Link
@@ -34,10 +34,14 @@ const CallToAction = () => {
 												className="rounded-circle border border-light"
 											/>
 										</div>
-									<span className="text-flip">
-						<span className="text text-uppercase">book a call with murtaza</span>
-						<span className="text text-uppercase">book a call with murtaza</span>
-					</span>
+										<span className="text-flip">
+											<span className="text text-uppercase">
+												book a call with murtaza
+											</span>
+											<span className="text text-uppercase">
+												book a call with murtaza
+											</span>
+										</span>
 									</Button>
 								</Link>
 							</div>

@@ -35,7 +35,11 @@ const Testimonial2 = () => {
           }
         ]
       };  
-
+//   const testimonialContent = [
+//         {subtitle:'CEO & Founder', title:'Murtaza Akbar', content:'Murtaza delivered our AI strategy in 7 days. We started implementation immediately and saw results within weeks Senior Director Healthcare Enterprise Rating: 5 stars'},
+//         {subtitle:'Founder', title:'Founder', content:'48-hour MVP development seemed impossible until Rovamo proved it works. We launched and got our first customers the same week. FinTech Startup Rating: 5 stars'}, 
+//         {subtitle:'Marketing Director', title:'Marketing Director', content:'The 7-day website project exceeded our expectations. Performance and conversion rates improved dramatically Marketing Director Company: E-commerce Platform Rating: 5 stars'},
+//       ]; 
     const testimonialContent = [
         {subtitle:'CEO & Founder', title:'Murtaza Akbar', content:'Murtaza delivered our AI strategy in 7 days. We started implementation immediately and saw results within weeks Senior Director Healthcare Enterprise Rating: 5 stars'},
         {subtitle:'Founder', title:'Founder', content:'48-hour MVP development seemed impossible until Rovamo proved it works. We launched and got our first customers the same week. FinTech Startup Rating: 5 stars'}, 

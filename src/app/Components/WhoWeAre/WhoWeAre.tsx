@@ -25,28 +25,23 @@ const WhoWeAre = () => {
 						<div className="agk-content-box mb-50 pf_fadeup">
 							<div className="section-title mb-30">
 								<span className="sub-title">What We Are</span>
-								<h2>Your Trusted Agency for Digital Success</h2>
+								<h2>Your Trusted Partner for Digital Success</h2>
 							</div>
 							<ul className="check-list style-one mb-40">
 								<li>
-									<i className="bi bi-check2-circle"></i>Passionate
-									Problem-Solvers For Your Business
+									<i className="bi bi-check2-circle"></i> Rapid Development For Fast Results
 								</li>
 								<li>
-									<i className="bi bi-check2-circle"></i>Business & Financial
-									Creative Innovators
+									<i className="bi bi-check2-circle"></i>Business & Strategic Creative Innovation
 								</li>
 								<li>
-									<i className="bi bi-check2-circle"></i>Provide National
-									Trusted Client-Centered
+									<i className="bi bi-check2-circle"></i>Proven Fortune 500 Client Experience
 								</li>
 								<li>
-									<i className="bi bi-check2-circle"></i>Perfect & Modern Work
-									Results-Driven
+									<i className="bi bi-check2-circle"></i> Perfect & Modern Work Results-Driven
 								</li>
 								<li>
-									<i className="bi bi-check2-circle"></i>National Client Meet &
-									Collaborative Partners
+									<i className="bi bi-check2-circle"></i> 48-Hour MVP Development & Deployment
 								</li>
 							</ul>
 							<div className="agk-button">
