@@ -28,8 +28,8 @@ export default function BookACallModal({
 						)}
 					</div>
 					<span className="text-flip">
-						<span className="text text-uppercase">{buttonText}</span>
-						<span className="text text-uppercase">{buttonText}</span>
+						<span className="text ">{buttonText}</span>
+						<span className="text ">{buttonText}</span>
 					</span>
 				</Button>
 			</Link>

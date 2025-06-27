@@ -23,7 +23,7 @@ const CallToAction = () => {
 									target="_blank">
 									<Button
 										variant="dark"
-										className="d-flex align-items-center gap-2 px-3 py-2 pointer theme-btn style-one text-uppercase   rounded-pill shadow-sm gray-dark border-0 ">
+										className="d-flex align-items-center gap-2 px-3 py-2 pointer theme-btn style-one   rounded-pill shadow-sm gray-dark border-0 ">
 										<div className="position-relative">
 											<Image
 												src="/murtaza.jpg"
@@ -34,11 +34,11 @@ const CallToAction = () => {
 											/>
 										</div>
 										<span className="text-flip">
-											<span className="text text-uppercase">
-												book a call with murtaza
+											<span className="text ">
+												Book a Call with Murtaza
 											</span>
-											<span className="text text-uppercase">
-												book a call with murtaza
+											<span className="text ">
+												Book a Call with Murtaza
 											</span>
 										</span>
 									</Button>

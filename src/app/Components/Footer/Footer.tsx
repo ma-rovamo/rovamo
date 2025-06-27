@@ -159,7 +159,7 @@ const Footer = () => {
 						<div className="col-md-6">
 							<div className="copyright-text">
 								<p>
-									&copy; 2025 <span>Rovamo Agency</span> - All Rights Reserved.
+									&copy; 2025 <span>Rovamo</span> - All Rights Reserved.
 								</p>
 							</div>
 						</div>

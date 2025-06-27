@@ -5,6 +5,7 @@ import Pricing1 from "../../../Components/Pricing/Pricing1";
 import Brand4 from "../../../Components/Brand/Brand4";
 import Image from "next/image";
 import Link from "next/link";
+import CallToAction from "../../../Components/CallToaction";
 // components
 const ServicesDetailsMVPDevelopment = () => {
 	return (
@@ -259,13 +260,13 @@ const MVPPage = () => {
 	return (
 		<div>
 			<BreadCumb
-				Title="MVP DEVELOPMENT DETAIL PAGE"
+				Title="MVP DEVELOPMENT DETAIL "
 				content="Success Through Client Experiences"></BreadCumb>
 			<ServicesDetailsMVPDevelopment />
 			<ProcessForALL />
 			<Pricing1></Pricing1>
-
 			<Brand4></Brand4>
+			<CallToAction/>
 		</div>
 	);
 };

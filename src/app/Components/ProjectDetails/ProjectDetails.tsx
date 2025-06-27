@@ -14,7 +14,7 @@ const ProjectDetails = () => {
 									alt="img"
 									width={1290}
 									height={600}
-                                    className="img-fluid w-100 h-auto object-cover"
+									className="img-fluid w-100 h-auto object-cover"
 								/>
 							</div>
 						</div>
@@ -40,7 +40,7 @@ const ProjectDetails = () => {
 								</p>
 							</div>
 						</div>
-						<div className="col-lg-4">
+						{/* <div className="col-lg-4">
 							<div className="project-duration-box pf_fadeup">
 								<div className="row">
 									<div className="col-sm-6">
@@ -69,7 +69,7 @@ const ProjectDetails = () => {
 									</div>
 								</div>
 							</div>
-						</div>
+						</div> */}
 					</div>
 					<div className="row">
 						<div className="col-lg-12">
@@ -109,6 +109,19 @@ const ProjectDetails = () => {
 									feature development, allowing the software to evolve with
 									Revalio's business needs.
 								</li>{" "}
+								<div className="row">
+									<div className="col-lg-12">
+										<div className="agenko-image text-center mb-50 pf_fadeup">
+											<Image
+												src="https://assets.aceternity.com/tabs.png"
+												alt="img"
+												width={1290}
+												height={600}
+												className="img-fluid w-100 h-auto object-cover"
+											/>
+										</div>
+									</div>
+								</div>
 								<div className="my-4">
 									<h3>The Challenge</h3>
 									<p>
@@ -181,49 +194,114 @@ const ProjectDetails = () => {
 											/>
 										</div>
 									</div> */}
-
-                                    		<h3>Our Solution: A Centralized MVP Platform</h3>
-								<p>
-									Our team at Rovamo engineered a user-centric web portal designed to be the definitive hub for Revalio and its users. The solution we built focused on four integrated features to address their core challenges head-on:
-								</p>
-								<li>
-									{" "}
-									<b>A Unified Property Dashboard:</b> TWe designed an intuitive dashboard that gives users a 360-degree view of their property portfolio. This serves as the central command center, with clear cards and notifications highlighting pending actions and important updates.
-								</li>{" "}
-								<li>
-									{" "}
-									<b>A Versatile Document & E-Signature Hub:</b> We developed a secure document manager capable of handling a wide range of files, from tax forms to lease agreements. Crucially, we integrated an e-signature workflow, allowing users to review and sign documents legally and instantly within the platform.
-								</li>{" "}
-								<li>
-									{" "}
-									<b>Streamline Critical Workflows:</b> To eliminate insecure and disorganized email chains, we built a secure messaging system. This feature organizes all communication into clear, contextual threads, ensuring every conversation is documented and easily accessible.
-								</li>{" "}
-								<li>
-									{" "}
-									<b>A Streamlined Payment Manager:</b> We implemented a flexible payment module to manage invoices for both consulting fees and property-related charges (like rent or maintenance). It includes clear status tracking (Paid, Pending, Overdue) and integration with a payment gateway for instant online transactions.
-								</li>{" "}
-								<div className="my-4">
-									<h3> Results & Impact</h3>
+									<h3>Our Solution: A Centralized MVP Platform</h3>
 									<p>
-										The launch of the MVP we developed for Revalio delivered immediate, measurable value and successfully validated their vision for a unified platform.
+										Our team at Rovamo engineered a user-centric web portal
+										designed to be the definitive hub for Revalio and its users.
+										The solution we built focused on four integrated features to
+										address their core challenges head-on:
 									</p>
 									<li>
 										{" "}
-										<b>60% Reduction in Administrative Work:</b> Our solution automated key workflows, drastically cutting down the time Revalio's staff spent on manual follow-ups and data entry.
+										<b>A Unified Property Dashboard:</b> TWe designed an
+										intuitive dashboard that gives users a 360-degree view of
+										their property portfolio. This serves as the central command
+										center, with clear cards and notifications highlighting
+										pending actions and important updates.
 									</li>{" "}
 									<li>
 										{" "}
-										<b>75% Faster Document Turnaround:</b> The e-signature feature we implemented reduced the average time to receive signed documents from days to mere hours, accelerating everything from new client onboarding to lease execution.
+										<b>A Versatile Document & E-Signature Hub:</b> We developed
+										a secure document manager capable of handling a wide range
+										of files, from tax forms to lease agreements. Crucially, we
+										integrated an e-signature workflow, allowing users to review
+										and sign documents legally and instantly within the
+										platform.
 									</li>{" "}
 									<li>
 										{" "}
-										<b>Strengthened Client & Tenant Trust:</b> By providing a transparent, professional, and easy-to-use platform, our work significantly enhanced the user experience, leading to greater satisfaction and trust in the Revalio brand.
+										<b>Streamline Critical Workflows:</b> To eliminate insecure
+										and disorganized email chains, we built a secure messaging
+										system. This feature organizes all communication into clear,
+										contextual threads, ensuring every conversation is
+										documented and easily accessible.
 									</li>{" "}
 									<li>
 										{" "}
-										<b>A Platform Built for Growth:</b> This successful MVP has provided Revalio with a robust and scalable foundation to build upon. It demonstrates Rovamo's ability to understand a complex business challenge and translate it into a tangible, effective, and future-proof digital product.
+										<b>A Streamlined Payment Manager:</b> We implemented a
+										flexible payment module to manage invoices for both
+										consulting fees and property-related charges (like rent or
+										maintenance). It includes clear status tracking (Paid,
+										Pending, Overdue) and integration with a payment gateway for
+										instant online transactions.
 									</li>{" "}
-								</div>
+									<div className="row">
+									<div className="col-lg-12">
+										<div className="agenko-image mb-40 w-100">
+											<Image
+												src="https://assets.aceternity.com/wobble-card.png"
+												alt="img"
+												width={1290}
+												height={600}
+												className="img-fluid w-100 h-auto object-cover"
+												style={{ objectFit: "cover" }}
+											/>
+										</div>
+									</div>
+									</div>
+									<div className="my-4">
+										<h3> Results & Impact</h3>
+										<p>
+											The launch of the MVP we developed for Revalio delivered
+											immediate, measurable value and successfully validated
+											their vision for a unified platform.
+										</p>
+										<li>
+											{" "}
+											<b>60% Reduction in Administrative Work:</b> Our solution
+											automated key workflows, drastically cutting down the time
+											Revalio's staff spent on manual follow-ups and data entry.
+										</li>{" "}
+										<li>
+											{" "}
+											<b>75% Faster Document Turnaround:</b> The e-signature
+											feature we implemented reduced the average time to receive
+											signed documents from days to mere hours, accelerating
+											everything from new client onboarding to lease execution.
+										</li>{" "}
+										<li>
+											{" "}
+											<b>Strengthened Client & Tenant Trust:</b> By providing a
+											transparent, professional, and easy-to-use platform, our
+											work significantly enhanced the user experience, leading
+											to greater satisfaction and trust in the Revalio brand.
+										</li>{" "}
+										<li>
+											{" "}
+											<b>A Platform Built for Growth:</b> This successful MVP
+											has provided Revalio with a robust and scalable foundation
+											to build upon. It demonstrates Rovamo's ability to
+											understand a complex business challenge and translate it
+											into a tangible, effective, and future-proof digital
+											product.
+										</li>{" "}
+
+									<div className="row">
+									<div className="col-lg-12">
+										<div className="agenko-image mb-40 w-100">
+											<Image
+												src="https://assets.aceternity.com/animated-modal.png"
+												alt="img"
+												width={1290}
+												height={600}
+												className="img-fluid w-100 h-auto object-cover"
+												style={{ objectFit: "cover" }}
+											/>
+										</div>
+									</div>	
+									</div>	
+									</div>
+									
 								</div>
 							</div>
 						</div>

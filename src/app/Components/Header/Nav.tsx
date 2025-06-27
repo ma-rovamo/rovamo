@@ -70,11 +70,7 @@ export default function Nav({ setMobileToggle }) {
         </Link>
         <DropDown>
           <ul>
-            <li>
-              <Link href="/service" onClick={() => setMobileToggle(false)}>
-                Services
-              </Link>
-            </li>
+            
             <li>
               <Link href="/service/service-details" onClick={() => setMobileToggle(false)}>
                AI Consulting
