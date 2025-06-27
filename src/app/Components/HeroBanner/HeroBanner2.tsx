@@ -89,7 +89,7 @@ const HeroBanner2 = () => {
                     <div className="col-lg-8">
                         
                         <div className="hero-image style-one pf_fadeup">
-                            <img src="/assets/images/digital-agency/hero/hero-img1.jpg" alt="Hero Image" />
+                            <img src="https://media.istockphoto.com/id/1515913422/photo/a-data-analyst-using-technology-ai-for-working-tool-for-data-analysis-chatbot-chat-with-ai.jpg?b=1&s=612x612&w=0&k=20&c=I8aXnwy7BCFAJ3Iw4bzRnRLtiIa-OPgLakMcVl9g9co=" alt="Hero Image" />
                         </div>
                     </div>
                 </div>

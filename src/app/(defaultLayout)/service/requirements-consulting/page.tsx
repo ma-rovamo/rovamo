@@ -127,127 +127,20 @@ const ProcessForALL = () => {
 					<div className="process-line"></div>
 					<div className="row">
 						{processContent.map((item, i) => (
-							<div key={i} className="col-lg-3 col-md-6 col-sm-12">
-								<div className="agenko-iconic-box style-eight mb-40">
+							<div key={i} className="col-lg-3 col-md-6 col-sm-12 d-flex">
+								<div className="agenko-iconic-box style-eight mb-40 w-100 d-flex flex-column">
 									<span className="agenko-dot mb-20"></span>
-									<div className="content">
+									<div className="content mb-3">
 										<span className="number">{item.number}</span>
 										<h4 className="title">{item.title}</h4>
 										<p>{item.content}</p>
 									</div>
-									<div className="thumbnail">
+									<div className="thumbnail mt-auto">
 										<Image src={item.img} alt="img" width={300} height={300} />
 									</div>
 								</div>
 							</div>
 						))}
-					</div>
-				</div>
-			</div>
-		</section>
-	);
-};
-
-const PricingForAll = () => {
-	return (
-		<section className="agenko-pricing pt-130">
-			<div className="container">
-				<div className="row">
-					<div className="col-lg-6">
-						<div className="agenko-pricing-item style-one mb-20 pf_fadeup">
-							<div className="shape shape-one">
-								<span>
-									<img
-										src="/assets/images/pages/shape/shape1.png"
-										alt="shape"
-									/>
-								</span>
-							</div>
-							<div className="pricing-head">
-								<span className="sub-title">Business</span>
-								<h2>Invest in Your Success</h2>
-								<p>
-									Unlock your potential with affordable, tailored plans designed
-									to fuel growth, enhance performance, and drive long-term
-									success.
-								</p>
-							</div>
-							<div className="pricing-body">
-								<ul className="check-list style-one">
-									<li>
-										<i className="bi bi-check-circle-fill"></i>Unlimited Cards
-									</li>
-									<li>
-										<i className="bi bi-check-circle-fill"></i>Automated
-										management
-									</li>
-									<li>
-										<i className="bi bi-check-circle-fill"></i>SOX compliance
-									</li>
-									<li>
-										<i className="bi bi-check-circle-fill"></i>Enterprise ERP
-										integrations
-									</li>
-									<li>
-										<i className="bi bi-check-circle-fill"></i>Local video
-										issuance
-									</li>
-								</ul>
-							</div>
-							<div className="pricing-footer">
-								<div className="agk-button">
-									<Link href="/contact" className="theme-btn style-two">
-										<span className="text">Contact Us</span>
-									</Link>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div className="col-lg-6">
-						<div className="agenko-pricing-item style-two mb-20 pf_fadeup">
-							<div className="pricing-head">
-								<h4>Basic</h4>
-								<div className="pricing">
-									<span className="sign">$</span>43/mo
-								</div>
-							</div>
-							<div className="pricing-body">
-								<p>
-									We responsive user-friendly websites tailored to your ensuring
-									seamless functionality, engaging design.
-								</p>
-							</div>
-						</div>
-
-						<div className="agenko-pricing-item style-two mb-20 pf_fadeup">
-							<div className="pricing-head">
-								<h4>Standard</h4>
-								<div className="pricing">
-									<span className="sign">$</span>43/mo
-								</div>
-							</div>
-							<div className="pricing-body">
-								<p>
-									We responsive user-friendly websites tailored to your ensuring
-									seamless functionality, engaging design.
-								</p>
-							</div>
-						</div>
-
-						<div className="agenko-pricing-item style-two mb-20 pf_fadeup">
-							<div className="pricing-head">
-								<h4>Premium</h4>
-								<div className="pricing">
-									<span className="sign">$</span>43/mo
-								</div>
-							</div>
-							<div className="pricing-body">
-								<p>
-									We responsive user-friendly websites tailored to your ensuring
-									seamless functionality, engaging design.
-								</p>
-							</div>
-						</div>
 					</div>
 				</div>
 			</div>
@@ -266,7 +159,7 @@ const Page = () => {
 			<ProcessForALL />
 			<Pricing1></Pricing1>
 			<Brand4></Brand4>
-			<CallToAction/>
+			<CallToAction />
 		</div>
 	);
 };
