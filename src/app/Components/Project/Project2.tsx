@@ -4,10 +4,10 @@ import React from 'react';
 const Project2 = () => {
 
     const chooseContent = [
-        {img:'/assets/images/digital-agency/project/project1.jpg', title:'Medical Mobile Design & Development', cat1:'Mobile App', cat2:'UI/UX Design'},
-        {img:'/assets/images/digital-agency/project/project2.jpg', title:'Stacks Website Design & Coding', cat1:'Mobile App', cat2:'UI/UX Design'},
-        {img:'/assets/images/digital-agency/project/project3.jpg', title:'Financial & Wallet Website Design', cat1:'Mobile App', cat2:'UI/UX Design'},
-        {img:'/assets/images/digital-agency/project/project4.jpg', title:'Sales Management Mobile App Design', cat1:'Mobile App', cat2:'UI/UX Design'},
+        {img:'/image.webp', slug:'project-details', title:'Building a Unified MVP for Property and Tax Management', cat1:'Mobile App', cat2:'UI/UX Design'},
+        {img:'/assets/images/digital-agency/project/project2.jpg', slug:'equity-vantage', title:'Stacks Website Design & Coding', cat1:'Mobile App', cat2:'UI/UX Design'},
+        {img:'/assets/images/digital-agency/project/project3.jpg', slug:'enerlytics', title:'Financial & Wallet Website Design', cat1:'Mobile App', cat2:'UI/UX Design'},
+        {img:'/assets/images/digital-agency/project/project4.jpg', slug:'locentrix', title:'Sales Management Mobile App Design', cat1:'Mobile App', cat2:'UI/UX Design'},
       ]; 
 
     return (
@@ -38,16 +38,16 @@ const Project2 = () => {
                 <div key={i} className="col-lg-6">
                     <div className="agenko-project-item style-one mb-45 pf_fadeup">
                         <div className="thumbnail">
-                            <img src={item.img} alt="Project Image" />
+                            <img src={item.img} className='image-fluid' alt="Project Image" />
                             <div className="project-button">
-                                <Link href="/project/project-details"><i className="bi bi-plus-lg"></i></Link>
+                                <Link href={`/project/${item.slug}`}><i className="bi bi-plus-lg"></i></Link>
                             </div>
                         </div>
                         <div className="content">
-                            <div className="project-categories">
+                            {/* <div className="project-categories">
                                 <a href="#">{item.cat1}</a>
                                 <a href="#">{item.cat2}</a>
-                            </div>
+                            </div> */}
                             <h4 className="title"><Link href="/project/project-details">{item.title}</Link></h4>
                         </div>
                     </div>

@@ -14,10 +14,7 @@ const WhoWeAre2 = () => {
 					<div className="col-lg-6">
 						<div className="text-box mb-40 pf_fadeup">
 							<p>
-								Leading Innovation <span>AI agency</span> We are a leading
-								AI-powered innovation agency, specializing in intelligent
-								solutions that drive business growth, enhance operational
-								efficiency
+								Leading Innovation AI agency We are a leading AI-powered innovation agency, specializing in intelligent solutions that drive business growth, enhance operational efficiency.
 							</p>
 						</div>
 					</div>
@@ -31,8 +28,7 @@ const WhoWeAre2 = () => {
 							<div className="content">
 								<h4>Research</h4>
 								<p>
-									We are a leading AI-powered innovation agency, specializing in
-									intelligent research
+									We are a leading AI-powered innovation agency, specializing in intelligent research
 								</p>
 							</div>
 						</div>
@@ -45,8 +41,7 @@ const WhoWeAre2 = () => {
 							<div className="content">
 								<h4>Planning</h4>
 								<p>
-									We are a leading AI-powered innovation agency, specializing in
-									strategic planning
+									We are a leading AI-powered innovation agency, specializing in strategic planning
 								</p>
 							</div>
 						</div>
@@ -59,8 +54,7 @@ const WhoWeAre2 = () => {
 							<div className="content">
 								<h4>Development</h4>
 								<p>
-									We are a leading AI-powered innovation agency, specializing in
-									rapid development
+									We are a leading AI-powered innovation agency, specializing in rapid development
 								</p>
 							</div>
 						</div>
@@ -73,8 +67,7 @@ const WhoWeAre2 = () => {
 							<div className="content">
 								<h4> Deployment</h4>
 								<p>
-									We are a leading AI-powered innovation agency, specializing in
-									smart deployment
+									We are a leading AI-powered innovation agency, specializing in smart deployment
 								</p>
 							</div>
 						</div>

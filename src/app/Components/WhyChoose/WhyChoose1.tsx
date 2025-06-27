@@ -12,14 +12,10 @@ const WhyChoose1 = () => {
 								<h2>Your Trusted Partner for AI-Powered Innovation</h2>
 							</div>
 							<p className="mb-35">
-								At Rovamo, we specialize in delivering AI-accelerated solutions
-								that transform your business in days, not months. By combining
-								cutting-edge AI technology, proven development methodologies,
-								and 15+ years of expertise, we turn your ideas into intelligent
-								solutions that drive real business impact.
+								At Rovamo, we specialize in delivering AI-accelerated solutions that transform your business in days, not months. By combining cutting-edge AI technology, proven development methodologies, and 15+ years of expertise, we turn your ideas into intelligent solutions that drive real business impact.
 							</p>
 
-							<div className="agenko-skill-list">
+							{/* <div className="agenko-skill-list">
 								<div className="agenko-skill-item style-one mb-20">
 									<div className="progress-title">
 										<h5>
@@ -54,7 +50,7 @@ const WhyChoose1 = () => {
 										<div className="progress-bar"></div>
 									</div>
 								</div>
-							</div>
+							</div> */}
 						</div>
 					</div>
 					<div className="col-xl-6">

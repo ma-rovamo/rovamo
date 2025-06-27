@@ -71,22 +71,22 @@ const Footer = () => {
 									<h4 className="widget-title">Quick Links</h4>
 									<ul className="footer-nav">
 										<li>
-											<Link href="/service">AI Consulting</Link>
+											<Link href="/service/service-details">AI Consulting</Link>
 										</li>
 										<li>
-											<Link href="/service">MVP Development</Link>
+											<Link href="/service/web-development-services">MVP Development</Link>
 										</li>
 										<li>
-											<Link href="/service">Product Design</Link>
+											<Link href="/service/product-design">Product Design</Link>
 										</li>
 										<li>
-											<Link href="/service">Web Development</Link>
+											<Link href="/service/web-development">Web Development</Link>
 										</li>
 										<li>
-											<Link href="/service">No-Code Development</Link>
+											<Link href="/service/no-code-development">No-Code Development</Link>
 										</li>
 										<li>
-											<Link href="/contact">Requirements Consulting</Link>
+											<Link href="/service/requirements-consulting">Requirements Consulting</Link>
 										</li>
 									</ul>
 								</div>
@@ -140,7 +140,7 @@ const Footer = () => {
 												<div className="content">
 													<h6>Location</h6>
 													<p>
-													Remote Work Only
+													Remote 
 													</p>
 												</div>
 											</div>

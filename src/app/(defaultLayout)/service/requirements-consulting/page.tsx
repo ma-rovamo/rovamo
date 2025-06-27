@@ -30,16 +30,16 @@ const ServicesDetailsMVPDevelopment = () => {
 							<div className="agenko-content-box mb-50 pf_fadeup">
 								<div className="section-title mb-40">
 									<span className="sub-title">Description</span>
-									<h2>MVP Development Success Metrics</h2>
+									<h2>Product Design Success Metrics</h2>
 								</div>
 								<div className="row">
 									<div className="col-md-6">
 										<div className="agenko-counter-item">
 											<div className="content">
 												<h2>
-													<span className="count">200</span>+
+													<span className="count">250</span>+
 												</h2>
-												<p>MVPs Delivered</p>
+												<p>Projects Successfully Planned</p>
 											</div>
 										</div>
 									</div>
@@ -47,9 +47,9 @@ const ServicesDetailsMVPDevelopment = () => {
 										<div className="agenko-counter-item">
 											<div className="content">
 												<h2>
-													<span className="count">48</span>
+													<span className="count">60</span>%
 												</h2>
-												<p>Hours Average Completion</p>
+												<p>Cost Savings Through Planning</p>
 											</div>
 										</div>
 									</div>
@@ -59,18 +59,18 @@ const ServicesDetailsMVPDevelopment = () => {
 						<div className="col-lg-6">
 							<div className="agenko-content-box mb-50 pf_fadeup">
 								<p className="mb-20">
-									Launch your product ideas faster than ever with our 48-hour
-									MVP development service. We've helped over 200 startups
-									validate their concepts and secure $50M+ in total funding
-									through rapid prototyping that proves market demand and
-									attracts investor interest.
+									Align technical capabilities with business objectives through
+									comprehensive requirements analysis. Our consulting services
+									have saved clients 60% in development costs by preventing
+									scope creep and ensuring clear project definitions across 250+
+									successful consulting engagements.
 								</p>
 								<p className="mb-20">
-									We offer a range of specialized MVP development services
-									designed to address your unique validation challenges. Through
-									innovative rapid development strategies and tailored
-									solutions, our expertise ensures exceptional outcomes that
-									accelerate time-to-market.{" "}
+									We offer a range of specialized requirements consulting
+									services designed to address your unique project planning
+									challenges. Through innovative analysis strategies and
+									tailored solutions, our expertise ensures exceptional outcomes
+									that prevent costly mistakes.
 								</p>
 								{/* <ul className="check-list style-one">
                                         <li><i className="flaticon-check"></i>Passionate Problem-Solvers For Your</li>
@@ -92,30 +92,30 @@ const ProcessForALL = () => {
 		{
 			img: "/assets/images/pages/gallery/process1.jpg",
 			number: "01",
-			title: "Concept Refinement",
+			title: " Platform Setup & Configuration ",
 			content:
-				"We analyze your product idea, identify core features for MVP, conduct competitor research, and refine the concept to focus on essential functionality that validates your market hypothesis effectively.",
+				"We analyze requirements, select optimal no-code platforms, configure development environments, and establish project foundations using Bubble, Webflow, and automation tools for rapid development.",
 		},
 		{
 			img: "/assets/images/pages/gallery/process2.jpg",
 			number: "02",
-			title: " Rapid Prototyping",
+			title: " Application Building",
 			content:
-				"We design user interfaces, develop core functionality, create interactive prototypes, and build functional MVPs using modern development frameworks that enable quick iterations and testing.",
+				"We design user interfaces, build application logic, create workflows, and develop features using visual development tools that enable rapid iteration and professional results without coding.",
 		},
 		{
 			img: "/assets/images/pages/gallery/process3.jpg",
 			number: "03",
-			title: "Market Validation",
+			title: " System Integration ",
 			content:
-				"We conduct user testing sessions, gather feedback data, analyze user behavior, and validate market demand through real user interactions to prove concept viability before full development.",
+				"We connect external APIs, integrate payment systems, set up automation workflows, and link third-party services to create comprehensive solutions that meet all business requirements.",
 		},
 		{
 			img: "/assets/images/pages/gallery/process4.jpg",
 			number: "04",
-			title: "Launch Preparation",
+			title: "Testing & Deployment ",
 			content:
-				"We optimize performance, deploy to production, set up analytics tracking, and prepare launch strategies that maximize user acquisition and provide data for future development decisions.",
+				"We conduct thorough testing, optimize performance, deploy to production, and provide training to ensure seamless operation and user adoption of your new no-code application.",
 		},
 	];
 
@@ -255,11 +255,11 @@ const PricingForAll = () => {
 };
 
 // end component
-const MVPPage = () => {
+const Page = () => {
 	return (
 		<div>
 			<BreadCumb
-				Title="MVP DEVELOPMENT DETAIL PAGE"
+				Title="REQUIREMENTS CONSULTING DETAIL PAGE"
 				content="Success Through Client Experiences"></BreadCumb>
 			<ServicesDetailsMVPDevelopment />
 			<ProcessForALL />
@@ -270,4 +270,4 @@ const MVPPage = () => {
 	);
 };
 
-export default MVPPage;
+export default Page;

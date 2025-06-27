@@ -1,4 +1,5 @@
 import About1 from "../../Components/About/About1";
+import About2 from "../../Components/About/About2";
 import Brand4 from "../../Components/Brand/Brand4";
 import CallToAction from "../../Components/CallToaction";
 import BreadCumb from "../../Components/Common/BreadCumb";
@@ -15,11 +16,11 @@ const page = () => {
 			<BreadCumb
 				Title="About Us"
 				content="Rovamo empowers businesses with AI-powered innovation, rapid MVP development, and intelligent digital solutions for tomorrow's challenges."></BreadCumb>
-			<About1></About1>
+			<About2></About2>
 			<WhoWeAre2></WhoWeAre2>
 			<TeamDetails></TeamDetails>
 			<Brand4></Brand4>
-			<Testimonial2></Testimonial2>
+			{/* <Testimonial2></Testimonial2> */}
             <CallToAction/>
 
 		</div>

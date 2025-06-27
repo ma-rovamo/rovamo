@@ -14,9 +14,7 @@ const Process2 = () => {
 					<div className="col-lg-5">
 						<div className="text-box mb-55 pf_fadeup">
 							<p>
-								"Creating cutting-edge digital solutions through rapid
-								development and proven methodologies to meet evolving business
-								needs and drive growth
+								Creating cutting-edge digital solutions through rapid development and proven methodologies to meet evolving business needs and drive growth
 							</p>
 						</div>
 					</div>
@@ -43,7 +41,7 @@ const Process2 = () => {
 							</div>
 							<div className="content">
 								<h4 className="title">Design & Planning</h4>
-								<p>Innovative concepts and designs tailored for functional.</p>
+								<p>Innovative concepts and designs tailored for functional</p>
 								<div className="step">Step-02</div>
 							</div>
 						</div>
@@ -67,7 +65,7 @@ const Process2 = () => {
 							</div>
 							<div className="content">
 								<h4 className="title">Launch & Growth</h4>
-								<p>Dedicated help and support for seamless customer.</p>
+								<p>Dedicated help and support for seamless customer</p>
 								<div className="step">Step-04</div>
 							</div>
 						</div>

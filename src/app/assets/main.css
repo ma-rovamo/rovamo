@@ -7308,7 +7308,7 @@ label {
 }
 
 .remove-bg{
-  background-color: black!important;
+  background-color: transparent!important;
   color: white!important;
 }
 .remove-bg:hover{

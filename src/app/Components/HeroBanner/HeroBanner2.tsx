@@ -20,7 +20,7 @@ const HeroBanner2 = () => {
                             </h1>
                             {/* <div className="pro">Pro</div> */}
                             <div className="text-box pf_fadeup ">
-                                <p>Specializing  <span> in rapid </span> MVP development, strategic consulting, product design, and web development solutions that drive real business impact.</p>
+                                <p>Specializing in rapid MVP development, strategic consulting, product design, and web development solutions that drive real business impact.</p>
                                 <div className="hero-button">
                                     <Link href="/about" className="theme-btn style-one">
                                         <span className="text-flip">
@@ -44,39 +44,43 @@ const HeroBanner2 = () => {
                                     </div>
                                     <div className="content">
                                         <h4 className="title">AI Consulting</h4>
+                                        <p> 7-day strategy delivery</p>
                                     </div>
                                 </Link>
                             </li>
                             <li>
                                 
-                                <Link href="/service/service-details" className="agenko-iconic-box style-one">
+                                <Link href="/service/mvp-development-services" className="agenko-iconic-box style-one">
                                     <div className="icon">
                                     <i className="bi bi-code-square"></i>
                                     </div>
                                     <div className="content">
                                         <h4 className="title">MVP Development</h4>
+                                        <p>48-hour rapid launch</p>
                                     </div>
                                 </Link>
                             </li>
                             <li>
                                 
-                                <Link href="/service/service-details" className="agenko-iconic-box style-one">
+                                <Link href="/service/product-design" className="agenko-iconic-box style-one">
                                     <div className="icon">
                                     <i className="bi bi-lightbulb"></i>
                                     </div>
                                     <div className="content">
                                         <h4 className="title">Product Design</h4>
+                                        <p>Conversion-focused interfaces</p>
                                     </div>
                                 </Link>
                             </li>
                             <li>
                                
-                                <Link href="/service/service-details" className="agenko-iconic-box style-one">
+                                <Link href="/service/no-code-development" className="agenko-iconic-box style-one">
                                     <div className="icon">
                                     <i className="bi bi-megaphone"></i>
                                     </div>
                                     <div className="content">
                                         <h4 className="title">No-Code Development</h4>
+                                        <p>Fast scalable solutions</p>
                                     </div>
                                 </Link>
                             </li>

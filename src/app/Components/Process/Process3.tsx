@@ -4,10 +4,10 @@ import React from 'react';
 const Process3 = () => {
 
     const processContent = [
-        {img:'/assets/images/pages/gallery/process1.jpg', number:'01', title:'Research', content:'We responsive user-friendly websites tailored to your ensuring seamless functionality, engaging design.'},
-        {img:'/assets/images/pages/gallery/process2.jpg', number:'02', title:'Designing', content:'We responsive user-friendly websites tailored to your ensuring seamless functionality, engaging design.'},
-        {img:'/assets/images/pages/gallery/process3.jpg', number:'03', title:'Development', content:'We responsive user-friendly websites tailored to your ensuring seamless functionality, engaging design.'},
-        {img:'/assets/images/pages/gallery/process4.jpg', number:'04', title:'Deployment', content:'We responsive user-friendly websites tailored to your ensuring seamless functionality, engaging design.'},
+        {img:'/assets/images/pages/gallery/process1.jpg', number:'01', title:'AI Research & Analysis ', content:'We conduct comprehensive AI readiness assessments, identify automation opportunities, analyze existing workflows, and evaluate technical infrastructure to determine optimal AI integration points for maximum business impact.'},
+        {img:'/assets/images/pages/gallery/process2.jpg', number:'02', title:'Strategy Development', content:'We create detailed AI implementation roadmaps, prioritize use cases by ROI potential, design automation workflows, and develop strategic plans that align AI capabilities with your specific business objectives.'},
+        {img:'/assets/images/pages/gallery/process3.jpg', number:'03', title:'Implementation Planning', content:'We design AI solution architectures, select appropriate technologies, create implementation timelines, and develop integration strategies that ensure seamless deployment without disrupting existing operations.'},
+        {img:'/assets/images/pages/gallery/process4.jpg', number:'04', title:'Optimization & Support', content:'We monitor AI performance metrics, optimize algorithms for better results, provide ongoing training and support, and continuously refine solutions to ensure maximum return on investment.'},
       ];
 
     return (

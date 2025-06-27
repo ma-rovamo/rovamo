@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
-const About1 = () => {
+const About2 = () => {
     return (
         <section className="agk-about pt-130 pb-80">
         <div className="container">
@@ -14,8 +14,8 @@ const About1 = () => {
                             <span className="sub-title">About us</span>
                             <h2>Fast digital transformation with proven expertise!</h2>
                         </div>
-                        <p>We specialize in delivering strategic solutions that elevate your business through innovative development approaches. By combining rapid delivery methods, proven expertise, and creative problem-solving, we help companies achieve their digital transformation goals.</p>
-                    <p>Our dedicated team works closely with clients to understand unique challenges, crafting customized solutions that drive measurable results.</p>
+                        <p>At Rovamo Agency, we specialize in delivering strategic growth solutions tailored to elevate your business to new heights through innovative AI-powered development approaches.</p>
+                    <p>Our dedicated team works closely with clients to understand their unique goals, crafting customized intelligent solutions that drive measurable results and accelerate digital transformation.</p>
                     <div className="agk-button mb-30">
                         <Link href="/about" className="theme-btn style-one">
                             <span className="text-flip">
@@ -65,4 +65,4 @@ const About1 = () => {
     );
 };
 
-export default About1;
+export default About2;

@@ -23,8 +23,8 @@ const page = () => {
             <WhoWeAre></WhoWeAre>
             <Process2></Process2>
             <CallToAction/>
-            <Testimonial2></Testimonial2>
-            <Faq1></Faq1>
+            {/* <Testimonial2></Testimonial2>
+            <Faq1></Faq1> */}
             <Brand4></Brand4>  
             {/* <Team2></Team2> */}
             {/* <Blog2></Blog2>           */}

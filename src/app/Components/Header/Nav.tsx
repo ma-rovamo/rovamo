@@ -77,7 +77,32 @@ export default function Nav({ setMobileToggle }) {
             </li>
             <li>
               <Link href="/service/service-details" onClick={() => setMobileToggle(false)}>
-                Service Details
+               AI Consulting
+              </Link>
+            </li>
+            <li>
+              <Link href="/service/mvp-development-services" onClick={() => setMobileToggle(false)}>
+               MVP Development
+              </Link>
+            </li>
+            <li>
+              <Link href="/service/product-design" onClick={() => setMobileToggle(false)}>
+              Product Design
+              </Link>
+            </li>
+            <li>
+              <Link href="/service/web-development" onClick={() => setMobileToggle(false)}>
+              Web Development
+              </Link>
+            </li>
+            <li>
+              <Link href="/service/no-code-development" onClick={() => setMobileToggle(false)}>
+              NO-Code Development
+              </Link>
+            </li>
+            <li>
+              <Link href="/service/requirements-consulting" onClick={() => setMobileToggle(false)}>
+              Requirements Consulting
               </Link>
             </li>
           </ul>

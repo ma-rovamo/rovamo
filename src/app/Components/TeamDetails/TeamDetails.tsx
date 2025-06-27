@@ -25,15 +25,7 @@ const TeamDetails = () => {
 								<h2>Murtaza Akbar</h2>
 								<span className="position">CEO & Founder</span>
 								<p>
-									I am Murtaza Akbar, a passionate Digital Marketing Consultant
-									& Founder with a love for helping businesses grow online. With
-									over 8 years of experience in digital marketing, I specialize
-									in SEO, paid advertising, and conversion rate optimization. I
-									take pride in delivering measurable results and ROI-focused
-									strategies, striving to help businesses achieve sustainable
-									growth and market leadership. Outside of work, I enjoy
-									traveling and exploring new technologies, always seeking
-									inspiration to fuel my creativity and strategic thinking.
+									I am Murtaza Akbar, a passionate Digital Marketing Consultant & Founder with a love for helping businesses grow online. With over 8 years of experience in digital marketing, I specialize in SEO, paid advertising, and conversion rate optimization. I take pride in delivering measurable results and ROI-focused strategies, striving to help businesses achieve sustainable growth and market leadership. Outside of work, I enjoy traveling and exploring new technologies, always seeking inspiration to fuel my creativity and strategic thinking.
 								</p>
 
 								<ul className="social-link">

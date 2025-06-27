@@ -28,7 +28,7 @@ const Services2 = () => {
                                             <h3 className="title">AI Consulting</h3>
                                         </div>
                                         <div className="content">
-                                            <p>Strategic AI implementation roadmaps, <span>use case</span> identification, automation workflows, and ROI analysis. Get intelligent solutions that transform operations and drive measurable results.</p>
+                                            <p> Strategic AI implementation roadmaps, use case identification, automation workflows, and ROI analysis. Get intelligent solutions that transform operations and drive measurable results.</p>
                                         </div>
                                         <div className="card-button">
                                             <Link href="/service/service-details" className="theme-btn style-one">
@@ -48,10 +48,10 @@ const Services2 = () => {
                                             <h3 className="title">MVP Development</h3>
                                         </div>
                                         <div className="content">
-                                            <p>Rapid prototyping,  <span>market validation</span> user testing, and scalable architecture. Transform ideas into functional products that validate concepts and attract investors.</p>
+                                            <p>Rapid prototyping, market validation, user testing, and scalable architecture. Transform ideas into functional products that validate concepts and attract investors.</p>
                                         </div>
                                         <div className="card-button">
-                                            <Link href="/service/service-details" className="theme-btn style-one">
+                                            <Link href="/service/mvp-development-services" className="theme-btn style-one">
                                                 <span className="text-flip">
                                                     <span className="text">LEARN MORE</span>
                                                     <span className="text">LEARN MORE</span>
@@ -68,10 +68,10 @@ const Services2 = () => {
                                             <h3 className="title">Product Design</h3>
                                         </div>
                                         <div className="content">
-                                            <p>User research, <span>wireframing</span> visual design, Figma prototypes, and conversion optimization. Create interfaces that users love and businesses</p>
+                                            <p>User research, wireframing, visual design, Figma prototypes, and conversion optimization. Create interfaces that users love and businesses benefit from.</p>
                                         </div>
                                         <div className="card-button">
-                                            <Link href="/service/service-details" className="theme-btn style-one">
+                                            <Link href="/service/product-design" className="theme-btn style-one">
                                                 <span className="text-flip">
                                                     <span className="text">LEARN MORE</span>
                                                     <span className="text">LEARN MORE</span>
@@ -89,10 +89,10 @@ const Services2 = () => {
                                             <h3 className="title">Web Development</h3>
                                         </div>
                                         <div className="content">
-                                            <p> NextJS applications <span> React development, </span> performance optimization, and responsive design. Build fast, scalable websites that convert visitors into customers.</p>
+                                            <p> NextJS applications, React development, performance optimization, and responsive design. Build fast, scalable websites that convert visitors into customers.</p>
                                         </div>
                                         <div className="card-button">
-                                            <Link href="/service/service-details" className="theme-btn style-one">
+                                            <Link href="/service/web-development" className="theme-btn style-one">
                                                 <span className="text-flip">
                                                     <span className="text">LEARN MORE</span>
                                                     <span className="text">LEARN MORE</span>
@@ -109,10 +109,10 @@ const Services2 = () => {
                                             <h3 className="title">No-Code Development</h3>
                                         </div>
                                         <div className="content">
-                                            <p> Bubble applications <span> Webflow sites </span> automation workflows, and rapid deployment. Launch sophisticated solutions without traditional coding timelines.</p>
+                                            <p> Bubble applications, Webflow sites, automation workflows, and rapid deployment. Launch sophisticated solutions without traditional coding timelines.</p>
                                         </div>
                                         <div className="card-button">
-                                            <Link href="/service/service-details" className="theme-btn style-one">
+                                            <Link href="/service/no-code-development" className="theme-btn style-one">
                                                 <span className="text-flip">
                                                     <span className="text">LEARN MORE</span>
                                                     <span className="text">LEARN MORE</span>
@@ -130,10 +130,10 @@ const Services2 = () => {
                                             <h3 className="title">Requirements Consulting</h3>
                                         </div>
                                         <div className="content">
-                                            <p> Business analysis, <span>  scope definition, </span>project planning, and strategic roadmaps. Align technical capabilities with business objectives for successful outcomes.</p>
+                                            <p> Business analysis, scope definition, project planning, and strategic roadmaps. Align technical capabilities with business objectives for successful outcomes.</p>
                                         </div>
                                         <div className="card-button">
-                                            <Link href="/service/service-details" className="theme-btn style-one">
+                                            <Link href="/service/requirements-consulting" className="theme-btn style-one">
                                                 <span className="text-flip">
                                                     <span className="text">LEARN MORE</span>
                                                     <span className="text">LEARN MORE</span>
