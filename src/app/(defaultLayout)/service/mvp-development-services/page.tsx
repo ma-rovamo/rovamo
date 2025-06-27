@@ -154,7 +154,7 @@ const MVPPage = () => {
 	return (
 		<div>
 			<BreadCumb
-				Title="MVP DEVELOPMENT DETAIL "
+				Title="MVP DEVELOPMENT  "
 				content="Success Through Client Experiences"></BreadCumb>
 			<ServicesDetailsMVPDevelopment />
 			<ProcessForALL />

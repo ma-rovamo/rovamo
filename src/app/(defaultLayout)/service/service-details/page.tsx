@@ -10,7 +10,7 @@ const page = () => {
 	return (
 		<div>
 			<BreadCumb
-				Title="AI CONSULTING DETAIL  "
+				Title="AI CONSULTING   "
 				content="Success Through Client Experiences"></BreadCumb>
 			<ServiceDetails></ServiceDetails>
 			<Process3></Process3>

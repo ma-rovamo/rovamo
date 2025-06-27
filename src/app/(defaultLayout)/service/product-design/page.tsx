@@ -153,7 +153,7 @@ const Page = () => {
 	return (
 		<div>
 			<BreadCumb
-				Title="PRODUCT DESIGN DETAIL"
+				Title="PRODUCT DESIGN "
 				content="Success Through Client Experiences"></BreadCumb>
 			<ServicesDetailsMVPDevelopment />
 			<ProcessForALL />
