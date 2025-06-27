@@ -50,9 +50,9 @@ const Pricing1 = () => {
 									</li>
 								</ul>
 							</div>
-							<div className="pricing-footer mt-auto">
+							{/* <div className="pricing-footer mt-auto">
 								<button className="theme-btn style-two">Buy Now</button>
-							</div>
+							</div> */}
 						</div>
 					</div>
 
@@ -98,9 +98,9 @@ const Pricing1 = () => {
 									</li>
 								</ul>
 							</div>
-							<div className="pricing-footer mt-auto">
+							{/* <div className="pricing-footer mt-auto">
 								<button className="theme-btn style-two">Buy Now</button>
-							</div>
+							</div> */}
 						</div>
 					</div>
 
@@ -150,9 +150,9 @@ const Pricing1 = () => {
 									</li>
 								</ul>
 							</div>
-							<div className="pricing-footer mt-auto">
+							{/* <div className="pricing-footer mt-auto">
 								<button className="theme-btn style-two">Buy Now</button>
-							</div>
+							</div> */}
 						</div>
 					</div>
 
@@ -190,9 +190,9 @@ const Pricing1 = () => {
 									</li>
 								</ul>
 							</div>
-							<div className="pricing-footer mt-auto">
+							{/* <div className="pricing-footer mt-auto">
 								<button className="theme-btn style-two">Buy Now</button>
-							</div>
+							</div> */}
 						</div>
 					</div>
 				</div>

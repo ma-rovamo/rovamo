@@ -28,10 +28,10 @@ const BreadCumb = ({Title,content} : any ) => {
                             </div>
                             <div className="col-xl-4">
                                 
-                                <ul className="breadcrumb-link">
+                                {/* <ul className="breadcrumb-link">
                                     <li><Link href="/">Home</Link></li>
                                     <li className="active">{Title}</li>
-                                </ul>
+                                </ul> */}
                             </div>
                         </div>
                     </div>

@@ -7,7 +7,7 @@ const page = () => {
 	return (
 		<div>
 			<BreadCumb
-				Title="Revalio Details"
+				Title="Revalio "
 				content="Building a Unified MVP for Property and Tax Management"></BreadCumb>
 			<ProjectDetails></ProjectDetails>
 			<CallToAction/>

@@ -40,14 +40,10 @@ const Project2 = () => {
                         <div className="thumbnail">
                             <img src={item.img} className='image-fluid' alt="Project Image" />
                             <div className="project-button">
-                                <Link href={`/project/${item.slug}`}><i className="bi bi-plus-lg"></i></Link>
+                                <Link href={`/project/${item.slug}`}><i className="bi bi-eye"></i></Link>
                             </div>
                         </div>
                         <div className="content">
-                            {/* <div className="project-categories">
-                                <a href="#">{item.cat1}</a>
-                                <a href="#">{item.cat2}</a>
-                            </div> */}
                             <h4 className="title"><Link href="/project/project-details">{item.title}</Link></h4>
                         </div>
                     </div>

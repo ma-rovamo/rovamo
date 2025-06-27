@@ -186,7 +186,7 @@ const page = () => {
 	return (
 		<div>
 			<BreadCumb
-				Title="Equity Vantage Details"
+				Title="Equity Vantage "
 				content="See how we transformed business challenges into measurable results using AI-accelerated development"></BreadCumb>
 			<ProjectDetails></ProjectDetails>
 			<CallToAction/>
