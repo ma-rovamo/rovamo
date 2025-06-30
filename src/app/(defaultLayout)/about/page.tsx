@@ -1,3 +1,4 @@
+import { Metadata } from "next";
 import About1 from "../../Components/About/About1";
 import About2 from "../../Components/About/About2";
 import Brand4 from "../../Components/Brand/Brand4";
@@ -28,3 +29,16 @@ const page = () => {
 };
 
 export default page;
+
+export const metadata: Metadata = {
+  title: 'About Rovamo | Our AI Innovation Journey',
+  description: 'Learn about Rovamo\'s mission to transform businesses through AI-powered innovation, our expert team, and our approach to creating intelligent digital solutions.',
+  openGraph: {
+    title: 'About Rovamo | Our AI Innovation Journey',
+    description: 'Learn about Rovamo\'s mission to transform businesses through AI-powered innovation, our expert team, and our approach to creating intelligent digital solutions.',
+  },
+  twitter: {
+    title: 'About Rovamo | Our AI Innovation Journey',
+    description: 'Learn about Rovamo\'s mission to transform businesses through AI-powered innovation, our expert team, and our approach to creating intelligent digital solutions.',
+  },
+};
