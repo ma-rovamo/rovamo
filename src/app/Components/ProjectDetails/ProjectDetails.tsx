@@ -11,7 +11,7 @@ const ProjectDetails = () => {
 						<div className="col-lg-12">
 							<div className="agenko-image text-center mb-50 pf_fadeup">
 								<Image
-									src="/image.webp"
+									src="/images/mainheader.png"
 									alt="img"
 									width={1290}
 									height={600}
@@ -89,7 +89,7 @@ const ProjectDetails = () => {
 						<div className="col-lg-12">
 							<div className="agenko-image text-center mb-50 pf_fadeup">
 								<Image
-									src="https://assets.aceternity.com/tabs.png"
+									src="/images/revalio1.png"
 									alt="img"
 									width={1290}
 									height={600}
@@ -147,7 +147,7 @@ const ProjectDetails = () => {
 						<div className="col-lg-12">
 							<div className="agenko-image mb-40 w-100">
 								<Image
-									src="/assets/images/pages/project/project-single2.jpg"
+									src="/images/revalio2.png"
 									alt="img"
 									width={1290}
 									height={600}
@@ -211,7 +211,7 @@ const ProjectDetails = () => {
 						<div className="col-lg-12">
 							<div className="agenko-image mb-40 w-100">
 								<Image
-									src="https://assets.aceternity.com/wobble-card.png"
+									src="/images/revalio3.png"
 									alt="img"
 									width={1290}
 									height={600}
@@ -267,7 +267,7 @@ const ProjectDetails = () => {
 						<div className="col-lg-12">
 							<div className="agenko-image mb-40 w-100">
 								<Image
-									src="https://assets.aceternity.com/animated-modal.png"
+									src="/images/revalio4.png"
 									alt="img"
 									width={1290}
 									height={600}
