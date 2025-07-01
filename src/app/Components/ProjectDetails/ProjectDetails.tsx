@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import { RevalioFlowchart } from "../MiroFlowchart";
 
 const ProjectDetails = () => {
 	return (
@@ -11,7 +12,7 @@ const ProjectDetails = () => {
 						<div className="col-lg-12">
 							<div className="agenko-image text-center mb-50 pf_fadeup">
 								<Image
-									src="/images/mainheader.png"
+									src="/images/revalio/main-header.jpg"
 									alt="img"
 									width={1290}
 									height={600}
@@ -89,7 +90,7 @@ const ProjectDetails = () => {
 						<div className="col-lg-12">
 							<div className="agenko-image text-center mb-50 pf_fadeup">
 								<Image
-									src="/images/revalio1.png"
+										src="/images/revalio/revalio-1.jpg"
 									alt="img"
 									width={1290}
 									height={600}
@@ -147,7 +148,7 @@ const ProjectDetails = () => {
 						<div className="col-lg-12">
 							<div className="agenko-image mb-40 w-100">
 								<Image
-									src="/images/revalio2.png"
+										src="/images/revalio/revalio-2.jpg"
 									alt="img"
 									width={1290}
 									height={600}
@@ -205,13 +206,16 @@ const ProjectDetails = () => {
 							</div>
 						</div>
 					</div>
+					<div className="mb-5">
+						<RevalioFlowchart />
+					</div>
 
 					{/* Image */}
 					<div className="row">
 						<div className="col-lg-12">
 							<div className="agenko-image mb-40 w-100">
 								<Image
-									src="/images/revalio3.png"
+										src="/images/revalio/revalio-3.jpg"
 									alt="img"
 									width={1290}
 									height={600}
@@ -267,7 +271,7 @@ const ProjectDetails = () => {
 						<div className="col-lg-12">
 							<div className="agenko-image mb-40 w-100">
 								<Image
-									src="/images/revalio4.png"
+										src="/images/revalio/revalio-4.jpg"
 									alt="img"
 									width={1290}
 									height={600}

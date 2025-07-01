@@ -7320,3 +7320,10 @@ label {
 .faqcursor{
   cursor: pointer;
 }
+
+.pricing-border{
+  border-top: 5px solid var(--primary-color);
+  border-radius: 15px;
+  
+}
+

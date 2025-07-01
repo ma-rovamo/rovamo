@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
-
+import Image from "next/image";
+import { Button } from "react-bootstrap";
 const Pricing1 = () => {
 	return (
 		<section className="agenko-pricing pt-130 pb-90">
@@ -14,17 +15,67 @@ const Pricing1 = () => {
 					</div>
 				</div>
 				<div className="row">
-					<div className="col-lg-4 col-md-6 col-sm-12">
+					<div className="col-lg-6 col-md-6 col-sm-12">
 						<div className="agenko-pricing-item style-three mb-40 pf_fadeup h-100 d-flex flex-column">
 							<div className="shape">
 								<span></span>
 							</div>
 							<div className="pricing-head">
-								<span className="plan">Basic</span>
+								<span className="plan">Starter</span>
 								<h2 className="price">
-									<span className="currency">$</span>2,500 USD
+									<span className="currency">One off</span>
+									{/* <span className="currency">$</span>2,500 USD */}
 								</h2>
-								{/* <p>Essential features at an affordable price for getting started.</p> */}
+								<div className="cta-button d-flex justify-content-center text-center  mt-4 py-3 pf_fadeup">
+									<Link
+										href={"https://cal.com/murtaza-akbar/discovery"}
+										target="_blank">
+										<Button
+											className="d-flex align-items-center gap-3 px-4 py-3  theme-btn style-one  shadow-sm border-0 "
+											style={{
+												transition: "all 0.3s ease",
+												backgroundColor: "var(--primary-color)",
+												color: "var(--primary-black-color)",
+												fontFamily: "var(--body-font)",
+												fontWeight: "600",
+											}}>
+											<div
+												className="position-relative"
+												style={{
+													boxShadow: "0 0 0 2px rgba(156, 254, 79, 0.3)",
+												}}>
+												{/* <Image
+													src="/murtaza.jpg"
+													alt="Murtaza"
+													width={40}
+													height={40}
+													className="rounded-circle border"
+													style={{ borderColor: "var(--primary-color)" }}
+												/> */}
+											</div>
+											<span className="text-flip">
+												<span className="text fw-medium fs-5">
+													Secure your July spot
+												</span>
+												<span className="text fw-medium fs-5">
+													Secure your July spot
+												</span>
+											</span>
+											<svg
+												xmlns="http://www.w3.org/2000/svg"
+												width="16"
+												height="16"
+												fill="currentColor"
+												className="bi bi-arrow-right"
+												viewBox="0 0 16 16">
+												<path
+													fillRule="evenodd"
+													d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+												/>
+											</svg>
+										</Button>
+									</Link>
+								</div>
 							</div>
 							<div className="pricing-body flex-grow-1">
 								<ul className="check-list style-one">
@@ -50,23 +101,70 @@ const Pricing1 = () => {
 									</li>
 								</ul>
 							</div>
-							{/* <div className="pricing-footer mt-auto">
-								<button className="theme-btn style-two">Buy Now</button>
-							</div> */}
 						</div>
 					</div>
 
-					<div className="col-lg-4 col-md-6 col-sm-12">
-						<div className="agenko-pricing-item style-three mb-40 pf_fadeup h-100 d-flex flex-column">
+					<div className="col-lg-6 col-md-6 col-sm-12 ">
+						<div className="agenko-pricing-item pricing-border style-three mb-40 pf_fadeup h-100 d-flex flex-column">
 							<div className="shape">
 								<span></span>
 							</div>
 							<div className="pricing-head">
-								<span className="plan">Standard</span>
+								<span className="plan">Most popular</span>
 								<h2 className="price">
-									<span className="currency">$</span>4,500 USD
+									<span className="currency">Retainer</span>
+									{/* <span className="currency">$</span>4,500 USD */}
 								</h2>
-								{/* <p>Essential features at an affordable price for getting started.</p> */}
+								<div className="cta-button d-flex justify-content-center text-center  mt-4 py-3 pf_fadeup">
+									<Link
+										href={"https://cal.com/murtaza-akbar/discovery"}
+										target="_blank">
+										<Button
+											className="d-flex align-items-center gap-3 px-4 py-3  theme-btn style-one  shadow-sm border-0 "
+											style={{
+												transition: "all 0.3s ease",
+												backgroundColor: "var(--primary-color)",
+												color: "var(--primary-black-color)",
+												fontFamily: "var(--body-font)",
+												fontWeight: "600",
+											}}>
+											<div
+												className="position-relative"
+												style={{
+													boxShadow: "0 0 0 2px rgba(156, 254, 79, 0.3)",
+												}}>
+												{/* <Image
+													src="/murtaza.jpg"
+													alt="Murtaza"
+													width={40}
+													height={40}
+													className="rounded-circle border"
+													style={{ borderColor: "var(--primary-color)" }}
+												/> */}
+											</div>
+											<span className="text-flip">
+												<span className="text fw-medium fs-5">
+													Secure your July spot
+												</span>
+												<span className="text fw-medium fs-5">
+													Secure your July spot
+												</span>
+											</span>
+											<svg
+												xmlns="http://www.w3.org/2000/svg"
+												width="16"
+												height="16"
+												fill="currentColor"
+												className="bi bi-arrow-right"
+												viewBox="0 0 16 16">
+												<path
+													fillRule="evenodd"
+													d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+												/>
+											</svg>
+										</Button>
+									</Link>
+								</div>
 							</div>
 							<div className="pricing-body flex-grow-1">
 								<ul className="check-list style-one">
@@ -98,13 +196,10 @@ const Pricing1 = () => {
 									</li>
 								</ul>
 							</div>
-							{/* <div className="pricing-footer mt-auto">
-								<button className="theme-btn style-two">Buy Now</button>
-							</div> */}
 						</div>
 					</div>
 
-					<div className="col-lg-4 col-md-6 col-sm-12">
+					{/* <div className="col-lg-4 col-md-6 col-sm-12">
 						<div className="agenko-pricing-item style-three mb-40 pf_fadeup h-100 d-flex flex-column">
 							<div className="shape">
 								<span></span>
@@ -114,7 +209,7 @@ const Pricing1 = () => {
 								<h2 className="price">
 									<span className="currency">$</span>7,500 USD
 								</h2>
-								{/* <p>Essential features at an affordable price for getting started.</p> */}
+								<p>Essential features at an affordable price for getting started.</p>
 							</div>
 							<div className="pricing-body flex-grow-1">
 								<ul className="check-list style-one">
@@ -150,12 +245,12 @@ const Pricing1 = () => {
 									</li>
 								</ul>
 							</div>
-							{/* <div className="pricing-footer mt-auto">
+							<div className="pricing-footer mt-auto">
 								<button className="theme-btn style-two">Buy Now</button>
-							</div> */}
+							</div>
 						</div>
-					</div>
-
+					</div> */}
+					{/* 
 					<div className="col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch my-5">
 						<div className="agenko-pricing-item style-three mb-40 pf_fadeup h-100 d-flex flex-column ">
 							<div className="shape">
@@ -166,7 +261,7 @@ const Pricing1 = () => {
 								<h2 className="price">
 									<span className="currency">$</span>50 USD/hour
 								</h2>
-								{/* <p>Essential features at an affordable price for getting started.</p> */}
+								<p>Essential features at an affordable price for getting started.</p>
 							</div>
 							<div className="pricing-body flex-grow-1">
 								<ul className="check-list style-one">
@@ -190,11 +285,11 @@ const Pricing1 = () => {
 									</li>
 								</ul>
 							</div>
-							{/* <div className="pricing-footer mt-auto">
+							<div className="pricing-footer mt-auto">
 								<button className="theme-btn style-two">Buy Now</button>
-							</div> */}
+							</div>
 						</div>
-					</div>
+					</div> */}
 				</div>
 			</div>
 		</section>

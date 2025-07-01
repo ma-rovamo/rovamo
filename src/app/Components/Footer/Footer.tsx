@@ -44,7 +44,7 @@ const Footer = () => {
 								</Link>
 									</div>
 									<p>
-										Rovamo  Crafting intelligent solutions for tomorrow's
+										Crafting intelligent solutions for tomorrow's
 										challenges
 									</p>
 									<form>
@@ -86,7 +86,7 @@ const Footer = () => {
 											<Link href="/service/no-code-development">No-Code Development</Link>
 										</li>
 										<li>
-											<Link href="/service/requirements-consulting">Requirements Consulting</Link>
+											<Link href="/service/requirements-management">Requirements Management</Link>
 										</li>
 									</ul>
 								</div>
@@ -106,7 +106,7 @@ const Footer = () => {
 													<Link href="/service">Services</Link>
 												</li>
 												<li>
-													<Link href="/project">Our Project</Link>
+													<Link href="/project">Project</Link>
 												</li>
 												<li>
 													<Link href="/contact">Contact us</Link>

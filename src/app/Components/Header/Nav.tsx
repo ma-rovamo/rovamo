@@ -97,8 +97,8 @@ export default function Nav({ setMobileToggle }) {
               </Link>
             </li>
             <li>
-              <Link href="/service/requirements-consulting" onClick={() => setMobileToggle(false)}>
-              Requirements Consulting
+              <Link href="/service/requirements-management" onClick={() => setMobileToggle(false)}>
+              Requirements Management
               </Link>
             </li>
           </ul>

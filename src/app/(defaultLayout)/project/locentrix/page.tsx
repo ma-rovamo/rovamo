@@ -2,6 +2,7 @@ import BreadCumb from "../../../Components/Common/BreadCumb";
 import React from "react";
 import Image from "next/image";
 import CallToAction from "../../../Components/CallToaction";
+import { LocentrixBrandFlowchart } from "../../../Components/MiroFlowchart";
 const ProjectDetails = () => {
 	return (
 		<section className="agenko-project-details pt-130 pb-90">
@@ -12,7 +13,7 @@ const ProjectDetails = () => {
 						<div className="col-lg-12">
 							<div className="agenko-image text-center mb-50 pf_fadeup">
 								<Image
-									src="/assets/images/digital-agency/project/project4.jpg"
+									src="/images/locentrix/locentrix-1.jpg"
 									alt="img"
 									width={1290}
 									height={600}
@@ -96,7 +97,7 @@ const ProjectDetails = () => {
 						<div className="col-lg-12">
 							<div className="agenko-image text-center mb-50 pf_fadeup">
 								<Image
-									src="https://assets.aceternity.com/tabs.png"
+									src="/images/locentrix/locentrix-2.jpg"
 									alt="img"
 									width={1290}
 									height={600}
@@ -155,7 +156,7 @@ const ProjectDetails = () => {
 						<div className="col-lg-12">
 							<div className="agenko-image mb-40 w-100">
 								<Image
-									src="/assets/images/pages/project/project-single2.jpg"
+									src="/images/locentrix/locentrix-3.jpg"
 									alt="img"
 									width={1290}
 									height={600}
@@ -224,13 +225,15 @@ const ProjectDetails = () => {
 							</div>
 						</div>
 					</div>
-
+					<div className="mb-5">
+						<LocentrixBrandFlowchart />
+					</div>
 					{/* Solution Image */}
 					<div className="row">
 						<div className="col-lg-12">
 							<div className="agenko-image mb-40 w-100">
 								<Image
-									src="https://assets.aceternity.com/wobble-card.png"
+									src="/images/locentrix/locentrix-4.jpg"
 									alt="img"
 									width={1290}
 									height={600}
@@ -293,7 +296,7 @@ const ProjectDetails = () => {
 						<div className="col-lg-12">
 							<div className="agenko-image mb-40 w-100">
 								<Image
-									src="https://assets.aceternity.com/animated-modal.png"
+								src="/images/locentrix/locentrix-5.jpg"
 									alt="img"
 									width={1290}
 									height={600}

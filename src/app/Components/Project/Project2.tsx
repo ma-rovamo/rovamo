@@ -1,60 +1,87 @@
-import Link from 'next/link';
-import React from 'react';
+import Link from "next/link";
+import React from "react";
 
 const Project2 = () => {
+	const chooseContent = [
+		{
+			img: "/images/revalio/revalio-thumbnail.jpg",
+			slug: "project-details",
+			title: "Unified Property & Tax Management Platform",
+			cat1: "Web Application",
+			cat2: "Full-Stack Development",
+		},
+		{
+			img: "/images/equity/equity-thumbnail.jpg",
+			slug: "equity-vantage",
+			title: "Financial Services Website Redesign",
+			cat1: "Web Design",
+			cat2: "Frontend Development",
+		},
+		{
+			img: "/images/enerlytics/enerlytics-thumbnail.jpg",
+			slug: "enerlytics",
+			title: "Energy Analytics Dashboard & Platform",
+			cat1: "UI/UX Design",
+			cat2: "Data Visualization",
+		},
+		{
+			img: "/images/locentrix/locentrix-thumbail.jpg",
+			slug: "locentrix",
+			title: "Enterprise Sales Management Solution",
+			cat1: "CRM Integration",
+			cat2: "Business Intelligence",
+		},
+	];
 
-    const chooseContent = [
-        {img:'/image.webp', slug:'project-details', title:'Building a Unified MVP for Property and Tax Management', cat1:'Mobile App', cat2:'UI/UX Design'},
-        {img:'/assets/images/digital-agency/project/project2.jpg', slug:'equity-vantage', title:'Stacks Website Design & Coding', cat1:'Mobile App', cat2:'UI/UX Design'},
-        {img:'/assets/images/digital-agency/project/project3.jpg', slug:'enerlytics', title:'Financial & Wallet Website Design', cat1:'Mobile App', cat2:'UI/UX Design'},
-        {img:'/assets/images/digital-agency/project/project4.jpg', slug:'locentrix', title:'Sales Management Mobile App Design', cat1:'Mobile App', cat2:'UI/UX Design'},
-      ]; 
-
-    return (
-        <section className="agk-project pt-130 pb-80">
-        <div className="container">
-            <div className="row align-items-center">
-                <div className="col-lg-7">
-                    
-                    <div className="section-title mb-60 pf_fadeup">
-                        <span className="sub-title">Our Work</span>
-                        <h2>Building Tomorrow Digital 
-                            Experiences Today</h2>
-                    </div>
-                </div>
-                <div className="col-lg-5">
-                    <div className="agk-button mb-60 float-lg-end pf_fadeup">
-                        <Link href="/project" className="theme-btn style-one">
-                            <span className="text-flip">
-                                <span className="text">View All Work</span>
-                                <span className="text">View All Work</span>
-                            </span>
-                        </Link>
-                    </div>
-                </div>
-            </div>
-            <div className="row">
-            {chooseContent.map((item, i) => (
-                <div key={i} className="col-lg-6">
-                    <div className="agenko-project-item style-one mb-45 pf_fadeup">
-                        <div className="thumbnail">
-                            <img src={item.img} className='image-fluid' alt="Project Image" />
-                            <div className="project-button">
-                                <Link href={`/project/${item.slug}`}><i className="bi bi-eye"></i></Link>
-                            </div>
-                        </div>
-                        <div className="content">
-                            <h4 className="title"><Link href="/project/project-details">{item.title}</Link></h4>
-                        </div>
-                    </div>
-                </div>
-            ))}
-
-
-            </div>
-        </div>
-    </section>
-    );
+	return (
+		<section className="agk-project pt-130 pb-80">
+			<div className="container">
+				<div className="row align-items-center">
+					<div className="col-lg-7">
+						<div className="section-title mb-60 pf_fadeup">
+							<span className="sub-title">Our Work</span>
+							<h2>Building Tomorrow Digital Experiences Today</h2>
+						</div>
+					</div>
+					<div className="col-lg-5">
+						<div className="agk-button mb-60 float-lg-end pf_fadeup">
+							<Link href="/project" className="theme-btn style-one">
+								<span className="text-flip">
+									<span className="text">View All Work</span>
+									<span className="text">View All Work</span>
+								</span>
+							</Link>
+						</div>
+					</div>
+				</div>
+				<div className="row">
+					{chooseContent.map((item, i) => (
+						<div key={i} className="col-lg-6">
+							<div className="agenko-project-item style-one mb-45 pf_fadeup">
+								<div className="thumbnail">
+									<img
+										src={item.img}
+										className="image-fluid"
+										alt="Project Image"
+									/>
+									<div className="project-button">
+										<Link href={`/project/${item.slug}`}>
+											<i className="bi bi-eye"></i>
+										</Link>
+									</div>
+								</div>
+								<div className="content">
+									<h4 className="title">
+										<Link href="/project/project-details">{item.title}</Link>
+									</h4>
+								</div>
+							</div>
+						</div>
+					))}
+				</div>
+			</div>
+		</section>
+	);
 };
 
 export default Project2;
