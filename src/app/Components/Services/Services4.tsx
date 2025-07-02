@@ -10,7 +10,7 @@ const Services4 = () => {
         {img:'/assets/images/pages/service/card-img3.jpg', slug:'product-design', title:'Product Design', subTitle:'UI/UX Excellence', content:'We design user-centered experiences that blend beautiful interfaces with intuitive functionality, optimized for conversion and engagement delivery.'},
         {img:'/assets/images/pages/service/card-img4.jpg', slug:'web-development', title:'Web Development', subTitle:'Full-Stack Solutions', content:'We build full-stack web applications with modern technologies, scalable architecture, and performance-first development practices delivered efficiently.'},
         {img:'/assets/images/pages/service/card-img3.jpg', slug:'no-code-development', title:'No-Code Development', subTitle:'Rapid Deployment', content:'We create Bubble applications, Webflow sites, and automation workflows without traditional coding timelines, deployed rapidly for fast results.'},
-        {img:'/assets/images/pages/service/card-img1.jpg', slug:'requirements-consulting', title:'Requirements Consulting', subTitle:'Strategic Planning', content:'We provide business analysis, scope definition, and strategic roadmaps that align technical capabilities with business objectives effectively.'},
+        {img:'/assets/images/pages/service/card-img1.jpg', slug:'requirements-management', title:'Requirements Management', subTitle:'Strategic Planning', content:'We provide business analysis, scope definition, and strategic roadmaps that align technical capabilities with business objectives effectively.'},
       ]; 
 
     return (

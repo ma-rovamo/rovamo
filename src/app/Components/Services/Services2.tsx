@@ -127,13 +127,13 @@ const Services2 = () => {
                                     <div className="agenko-card-item style-one mb-30 pf_fadeup">
                                         <div className="card-title">
                                             <div className="sn-number">06</div>
-                                            <h3 className="title">Requirements Consulting</h3>
+                                            <h3 className="title">Requirements Management</h3>
                                         </div>
                                         <div className="content">
                                             <p> Business analysis, scope definition, project planning, and strategic roadmaps. Align technical capabilities with business objectives for successful outcomes.</p>
                                         </div>
                                         <div className="card-button">
-                                            <Link href="/service/requirements-consulting" className="theme-btn style-one">
+                                            <Link href="/service/requirements-management" className="theme-btn style-one">
                                                 <span className="text-flip">
                                                     <span className="text">LEARN MORE</span>
                                                     <span className="text">LEARN MORE</span>
