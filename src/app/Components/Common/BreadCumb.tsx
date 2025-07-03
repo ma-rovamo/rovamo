@@ -1,7 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
-
-const BreadCumb = ({Title,content} : any ) => {
+interface BreadCumbProps {
+    Title: string;
+    content: string;
+    button?:string;
+    link?:string;
+}
+const BreadCumb = ({Title,content,button, link} : BreadCumbProps ) => {
 
     return (
 
@@ -27,21 +32,20 @@ const BreadCumb = ({Title,content} : any ) => {
                                 </div>
                             </div>
                             <div className="col-xl-4">
-                                
-                                {/* <ul className="breadcrumb-link">
-                                    <li><Link href="/">Home</Link></li>
-                                    <li className="active">{Title}</li>
-                                </ul> */}
+                                {button && (
+                                    <div className="demo-button-wrapper d-flex justify-content-xl-end mt-4 mt-xl-0">
+                                        <Link href={link} target="_blank" className="btn-demo">
+                                            <span>{button}</span>
+                                            <i className="fas fa-arrow-right ms-2"></i>
+                                        </Link>
+                                    </div>
+                                )}
+                               
                             </div>
                         </div>
                     </div>
                 </div>
-                {/* <div className="col-lg-3">
-                    
-                    <div className="circle-box float-xl-end text-center text-xl-end">
-                        <Image className="rotate360" src="/assets/images/pages/shape/circle-shape1.png" alt="img" width={135} height={135}   />
-                    </div>
-                </div> */}
+                
             </div>
         </div>
     </section>

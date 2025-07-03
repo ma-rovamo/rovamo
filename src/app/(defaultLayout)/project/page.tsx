@@ -7,7 +7,7 @@ const page = () => {
 	return (
 		<div>
 			<BreadCumb
-				Title="Project"
+				Title="Our Work"
 				content="Digital solutions that drive real business results - from $5M startups to $700M+ enterprises"></BreadCumb>
 			<Project2></Project2>
 		</div>

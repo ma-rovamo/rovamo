@@ -6,28 +6,28 @@ const Project2 = () => {
 		{
 			img: "/images/revalio/revalio-thumbnail.jpg",
 			slug: "project-details",
-			title: "Unified Property & Tax Management Platform",
+			title: "Revalio - Digital Property Tax Management",
 			cat1: "Web Application",
 			cat2: "Full-Stack Development",
 		},
 		{
 			img: "/images/equity/equity-thumbnail.jpg",
 			slug: "equity-vantage",
-			title: "Financial Services Website Redesign",
+			title: "Equity Vantage - Smart Cap Table Management",
 			cat1: "Web Design",
 			cat2: "Frontend Development",
 		},
 		{
 			img: "/images/enerlytics/enerlytics-thumbnail.jpg",
 			slug: "enerlytics",
-			title: "Energy Analytics Dashboard & Platform",
+			title: "Enerlytics - Energy Analytics Platform",
 			cat1: "UI/UX Design",
 			cat2: "Data Visualization",
 		},
 		{
 			img: "/images/locentrix/locentrix-thumbail.jpg",
 			slug: "locentrix",
-			title: "Enterprise Sales Management Solution",
+			title: "Locentrix - Commercial Real Estate Marketplace",
 			cat1: "CRM Integration",
 			cat2: "Business Intelligence",
 		},
@@ -72,6 +72,7 @@ const Project2 = () => {
 											<Image
 												src="/eye.apng"
 												alt="code-icon"
+												loading="lazy"
 												width={30} // Adjust this size as per design
 												height={30}
 												className="img-fluid d-block mx-auto" // Bootstrap utilities for responsive and centered

@@ -307,8 +307,11 @@ const page = () => {
 	return (
 		<div>
 			<BreadCumb
-				Title="Enerlytics "
-				content="See how we transformed business challenges into measurable results using AI-accelerated development"></BreadCumb>
+				Title="Enerlytics - Energy Analytics Platform "
+				 button="View Demo" 
+				 link="https://enerlytics.hellorovamo.com/"
+				content="A dual-sided platform connecting property managers and residents
+through smart meter integration, providing actionable insights for energy optimization and cost savings"></BreadCumb>
 			<ProjectDetails></ProjectDetails>
 			<CallToAction />
 		</div>

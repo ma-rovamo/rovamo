@@ -315,8 +315,11 @@ const page = () => {
 	return (
 		<div>
 			<BreadCumb
-				Title="Locentix "
-				content="See how we transformed business challenges into measurable results using AI-accelerated development"></BreadCumb>
+				Title="Locentrix - Commercial Real Estate Marketplace "
+				 button="View Demo" 
+				 link="https://locentrix.hellorovamo.com/"
+				content="An intelligent matching platform that connects brands, shopping
+centers, and brokers through data-driven algorithms and streamlined deal management tools."></BreadCumb>
 			<ProjectDetails></ProjectDetails>
 			<CallToAction />
 		</div>

@@ -15,12 +15,12 @@ const HeroBanner2 = () => {
                     <div className="col-lg-12">
                         <div className="hero-content">
                             <h1>
-                                <span className="text-anm">Digital Innovation </span>
-                                <span className="text-anm">Solution</span>
+                                <span className="text-anm">AI-Powered Business  </span>
+                                <span className="text-anm">Growth</span>
                             </h1>
                             {/* <div className="pro">Pro</div> */}
                             <div className="text-box pf_fadeup ">
-                                <p>Specializing in rapid MVP development, strategic consulting, product design, and web development solutions that drive real business impact.</p>
+                                <p>Delivering intelligent automation, rapid prototyping, strategic AI consulting, and scalable development solutions that accelerate your.</p>
                                 <div className="hero-button">
                                     <Link href="/about" className="theme-btn style-one">
                                         <span className="text-flip">

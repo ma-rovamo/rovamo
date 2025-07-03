@@ -7327,3 +7327,65 @@ label {
   
 }
 
+/* Demo button styling */
+.btn-demo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 28px;
+  background-color: var(--primary-color);
+  color: var(--primary-black-color);
+  border-radius: 4px;
+  font-family: var(--heading-font);
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+  border: none;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.btn-demo:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  transition: width 0.3s ease;
+  z-index: 1;
+}
+
+.btn-demo:hover:before {
+  width: 100%;
+}
+
+.btn-demo:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(156, 254, 79, 0.3);
+  color: var(--primary-black-color);
+}
+
+.btn-demo span, .btn-demo i {
+  position: relative;
+  z-index: 2;
+}
+
+.btn-demo i {
+  transition: transform 0.3s ease;
+}
+
+.btn-demo:hover i {
+  transform: translateX(5px);
+}
+
+@media (max-width: 1199px) {
+  .demo-button-wrapper {
+    justify-content: flex-start !important;
+  }
+}
+
+

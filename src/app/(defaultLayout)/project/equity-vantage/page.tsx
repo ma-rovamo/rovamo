@@ -328,8 +328,11 @@ const page = () => {
 	return (
 		<div>
 			<BreadCumb
-				Title="Equity Vantage "
-				content="See how we transformed business challenges into measurable results using AI-accelerated development"></BreadCumb>
+				Title="Equity Vantage - Smart Cap Table Management "
+				button="View Demo" 
+				 link="https://fundmgmnt.netlify.app/"
+				content="An enterprise platform that replaces spreadsheet-based equity
+management with real-time cap tables, automated compliance tracking, and comprehensive reporting"></BreadCumb>
 			<ProjectDetails></ProjectDetails>
 			<CallToAction />
 		</div>

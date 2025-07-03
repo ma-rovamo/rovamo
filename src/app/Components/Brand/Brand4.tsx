@@ -3,11 +3,11 @@ import React from 'react';
 const Brand4 = () => {
 
     const brandContent = [
-        {img:'/assets/images/pages/client/client1.png'},
-        {img:'/assets/images/pages/client/client2.png'},
-        {img:'/assets/images/pages/client/client3.png'},
-        {img:'/assets/images/pages/client/client4.png'},
-        {img:'/assets/images/pages/client/client5.png'},
+        {name: 'Vodafone'},
+        {name: 'Real Chemistry'},
+        {name: 'Capita'},
+        {name: 'Novartis'},
+        {name: 'Rhenus'},
       ];
 
     return (
@@ -28,13 +28,11 @@ const Brand4 = () => {
                         <div className="company-list d-flex flex-wrap justify-content-center">
                         {brandContent.map((item, i) => (
                             <div key={i} className="agenko-client-item style-two mb-40 pf_fadeup">
-                                <div className="client-image">
-                                    <img src={item.img} alt="Client Image" />
+                                <div className="client-image text-white">
+                                    <span style={{ fontWeight: 'bold', fontSize: '1.5rem' }}>{item.name}</span>
                                 </div>
                             </div>
                             ))}
-
-
                         </div>
                     </div>
                 </div>
