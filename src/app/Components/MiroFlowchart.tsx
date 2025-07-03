@@ -108,7 +108,7 @@ export const RevalioFlowchart = () => (
   <MiroFlowchart
     embedId="694961023092"
     focusWidget="3458764632722802170"
-    title="Revalio"
+    title=""
   />
 );
 
@@ -116,7 +116,7 @@ export const EquityVantageFlowchart = () => (
   <MiroFlowchart
     embedId="458346173698"
     focusWidget="3458764632741584812"
-    title="Equity Vantage"
+    title=""
   />
 );
 
@@ -124,7 +124,7 @@ export const EnerlyticsCustomerFlowchart = () => (
   <MiroFlowchart
     embedId="281839032509"
     focusWidget="3458764632749495354"
-    title="Enerlytics Customer"
+    title=""
   />
 );
 
@@ -132,7 +132,7 @@ export const EnerlyticsClientFlowchart = () => (
   <MiroFlowchart
     embedId="964932746096"
     focusWidget="3458764632865132722"
-    title="Enerlytics Client"
+    title=""
   />
 );
 
@@ -140,7 +140,7 @@ export const LocentrixBrandFlowchart = () => (
   <MiroFlowchart
     embedId="103906802696"
     focusWidget="3458764632839646978"
-    title="Locentrix Brand"
+    title=""
   />
 );
 
