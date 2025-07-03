@@ -14,7 +14,9 @@ const Process2 = () => {
 					<div className="col-lg-5">
 						<div className="text-box mb-55 pf_fadeup">
 							<p>
-								Creating cutting-edge digital solutions through rapid development and proven methodologies to meet evolving business needs and drive growth
+								Creating cutting-edge digital solutions through rapid
+								development and proven methodologies to meet evolving business
+								needs and drive growth
 							</p>
 						</div>
 					</div>
@@ -23,7 +25,7 @@ const Process2 = () => {
 					<div className="col-xl-3 col-md-6 col-sm-12">
 						<div className="agenko-iconic-box style-two mb-40 pf_fadeup">
 							<div className="icon">
-								<i className="bi bi-binoculars"></i>
+								<img src="/plan1.apng" className="img-fluid" alt="code-icon" />
 							</div>
 							<div className="content">
 								<h4 className="title">Discovery & Strategy</h4>
@@ -37,7 +39,7 @@ const Process2 = () => {
 					<div className="col-xl-3 col-md-6 col-sm-12">
 						<div className="agenko-iconic-box style-two mb-40 pf_fadeup">
 							<div className="icon">
-								<i className="bi bi-binoculars"></i>
+								<img src="/layer.apng" className="img-fluid" alt="code-icon" />
 							</div>
 							<div className="content">
 								<h4 className="title">Design & Planning</h4>
@@ -49,10 +51,10 @@ const Process2 = () => {
 					<div className="col-xl-3 col-md-6 col-sm-12">
 						<div className="agenko-iconic-box style-two mb-40 pf_fadeup">
 							<div className="icon">
-								<i className="bi bi-binoculars"></i>
+								<img src="/clo.apng" className="img-fluid" alt="code-icon" />
 							</div>
 							<div className="content">
-								<h4 className="title">Development  Testing</h4>
+								<h4 className="title">Development Testing</h4>
 								<p>Comprehensive testing ensures exceptional quality</p>
 								<div className="step">Step-03</div>
 							</div>
@@ -61,7 +63,7 @@ const Process2 = () => {
 					<div className="col-xl-3 col-md-6 col-sm-12">
 						<div className="agenko-iconic-box style-two mb-40 pf_fadeup">
 							<div className="icon">
-								<i className="bi bi-binoculars"></i>
+								<img src="/rocket.apng" className="img-fluid" alt="code-icon" />
 							</div>
 							<div className="content">
 								<h4 className="title">Launch & Growth</h4>

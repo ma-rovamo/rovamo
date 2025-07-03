@@ -97,7 +97,7 @@ const Footer = () => {
 								<div className="col-md-5">
 									<div className="footer-widget footer-nav-widget mb-40 pf_fadeup">
 										<div className="footer-content mb-35">
-											<h4 className="widget-title">Our Link</h4>
+											<h4 className="widget-title">Pages</h4>
 											<ul className="footer-nav">
 												<li>
 													<Link href="/about">About us</Link>

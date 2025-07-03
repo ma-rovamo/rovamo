@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-
+import Image from "next/image";
 const Project2 = () => {
 	const chooseContent = [
 		{
@@ -59,20 +59,29 @@ const Project2 = () => {
 						<div key={i} className="col-lg-6">
 							<div className="agenko-project-item style-one mb-45 pf_fadeup">
 								<div className="thumbnail">
+									<Link href={`/project/${item.slug}`}>
 									<img
 										src={item.img}
 										className="image-fluid"
 										alt="Project Image"
-									/>
+										/>
+										</Link>
 									<div className="project-button">
 										<Link href={`/project/${item.slug}`}>
-											<i className="bi bi-eye"></i>
+											{/* <i className="bi bi-eye"></i> */}
+											<Image
+												src="/eye.apng"
+												alt="code-icon"
+												width={30} // Adjust this size as per design
+												height={30}
+												className="img-fluid d-block mx-auto" // Bootstrap utilities for responsive and centered
+											/>
 										</Link>
 									</div>
 								</div>
 								<div className="content">
 									<h4 className="title">
-										<Link href="/project/project-details">{item.title}</Link>
+										<Link href={`/project/${item.slug}`}>{item.title}</Link>
 									</h4>
 								</div>
 							</div>
