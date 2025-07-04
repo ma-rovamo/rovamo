@@ -14,7 +14,7 @@ const About2 = () => {
                             <span className="sub-title">About us</span>
                             <h2>Fast digital transformation with proven expertise!</h2>
                         </div>
-                        <p>At Rovamo Agency, we specialize in delivering strategic growth solutions tailored to elevate your business to new heights through innovative AI-powered development approaches.</p>
+                        <p>At Rovamo, we specialize in delivering strategic growth solutions tailored to elevate your business to new heights through innovative AI-powered development approaches.</p>
                     <p>Our dedicated team works closely with clients to understand their unique goals, crafting customized intelligent solutions that drive measurable results and accelerate digital transformation.</p>
                     <div className="agk-button mb-30">
                         <Link href="/about" className="theme-btn style-one">
