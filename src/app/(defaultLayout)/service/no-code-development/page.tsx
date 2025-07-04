@@ -48,7 +48,7 @@ const ServicesDetailsMVPDevelopment = () => {
 										<div className="agenko-counter-item">
 											<div className="content">
 												<h2>
-													<span className="count">7</span>%
+													<span className="count">40</span>%
 												</h2>
 												<p>Cost Reduction vs Traditional</p>
 											</div>
@@ -154,7 +154,7 @@ const Page = () => {
 		<div>
 			<BreadCumb
 				Title="NO-CODE DEVELOPMENT  "
-				content="Success Through Client Experiences"></BreadCumb>
+				content="For projects where speed and adaptability are paramount, we utilize powerful no-code platforms to build and deploy applications. This approach is ideal for validating concepts, creating internal tools, or automating workflows with maximum efficiency."></BreadCumb>
 			<ServicesDetailsMVPDevelopment />
 			<ProcessForALL />
 			<Pricing1></Pricing1>

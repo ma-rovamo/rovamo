@@ -14,9 +14,14 @@ const WhoWeAre2 = () => {
 					<div className="col-lg-6">
 						<div className="text-box mb-40 pf_fadeup">
 							<p>
-								We are a leading AI-powered innovation agency, specializing in
-								intelligent solutions that drive business growth, enhance
-								operational efficiency.
+								We are an AI-powered innovation agency that redefines how
+								businesses bring their vision to life. Specializing in
+								enterprise-grade software, we build intelligent solutions, from
+								data-driven marketplaces to automated management platforms—that
+								drive significant growth and enhance operational efficiency. Our
+								unique, AI-accelerated development model allows us to bypass
+								traditional timelines, delivering a secure, scalable, and
+								market-ready MVP in just two weeks
 							</p>
 						</div>
 					</div>

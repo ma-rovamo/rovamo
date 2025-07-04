@@ -8,7 +8,7 @@ const page = () => {
 		<div>
 			<BreadCumb
 				Title="Our Work"
-				content="Digital solutions that drive real business results - from $5M startups to $700M+ enterprises"></BreadCumb>
+				content="Our work shows how we build custom software to solve real business problems. Using AI-powered tools, we deliver a working Minimum Viable Product in just two weeks, providing practical and scalable solutions for clients ranging from growing startups to established enterprises."></BreadCumb>
 			<Project2></Project2>
 		</div>
 	);

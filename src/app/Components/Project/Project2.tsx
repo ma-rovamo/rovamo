@@ -43,7 +43,7 @@ const Project2 = () => {
 							<h2>Building Tomorrow Digital Experiences Today</h2>
 						</div>
 					</div>
-					<div className="col-lg-5">
+					{/* <div className="col-lg-5">
 						<div className="agk-button mb-60 float-lg-end pf_fadeup">
 							<Link href="/project" className="theme-btn style-one">
 								<span className="text-flip">
@@ -52,7 +52,7 @@ const Project2 = () => {
 								</span>
 							</Link>
 						</div>
-					</div>
+					</div> */}
 				</div>
 				<div className="row">
 					{chooseContent.map((item, i) => (

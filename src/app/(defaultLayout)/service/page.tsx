@@ -11,7 +11,7 @@ const page = () => {
 		<div>
 			<BreadCumb
 				Title="Services"
-				content="From AI strategy to full-stack development - comprehensive solutions that scale your business"></BreadCumb>
+				content="We offer an end-to-end partnership that takes you from concept to a fully functional platform. Our methodology is built on a foundation of AI-powered development tools, enabling us to execute full-stack projects with unparalleled efficiency. The process begins with a deep dive into your strategy, followed by a rapid development sprint that delivers a robust MVP in two weeks. Our expertise lies in engineering scalable, secure, and intuitive solutions, including unified dashboards, multi-sided platforms with matching algorithms, and integrated management hubs that serve as a single source of truth for your operations"></BreadCumb>
 			<WhyChoose1></WhyChoose1>
 			<Services4></Services4>
 			<Brand4></Brand4>

@@ -155,7 +155,7 @@ const MVPPage = () => {
 		<div>
 			<BreadCumb
 				Title="MVP DEVELOPMENT  "
-				content="Success Through Client Experiences"></BreadCumb>
+				content="We transform your validated requirements into a high-quality, functional Minimum Viable Product. Our AI-accelerated process delivers a scalable and secure platform in just two weeks, enabling you to launch, test, and iterate faster."></BreadCumb>
 			<ServicesDetailsMVPDevelopment />
 			<ProcessForALL />
 			<Pricing1></Pricing1>

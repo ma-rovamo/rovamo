@@ -11,7 +11,7 @@ const page = () => {
 		<div>
 			<BreadCumb
 				Title="AI CONSULTING   "
-				content="Success Through Client Experiences"></BreadCumb>
+				content="We create a strategic roadmap for your vision, defining the optimal AI models, data requirements, and core features to ensure your product is technically feasible, market-ready, and primed for rapid development."></BreadCumb>
 			<ServiceDetails></ServiceDetails>
 			<Process3></Process3>
 			<Pricing1></Pricing1>

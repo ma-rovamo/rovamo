@@ -25,7 +25,7 @@ const TeamDetails = () => {
 								<h2>Murtaza Akbar</h2>
 								<span className="position">CEO & Founder</span>
 								<p>
-									I am Murtaza Akbar, a passionate Digital Marketing Consultant & Founder with a love for helping businesses grow online. With over 8 years of experience in digital marketing, I specialize in SEO, paid advertising, and conversion rate optimization. I take pride in delivering measurable results and ROI-focused strategies, striving to help businesses achieve sustainable growth and market leadership. Outside of work, I enjoy traveling and exploring new technologies, always seeking inspiration to fuel my creativity and strategic thinking.
+									With over a decade of experience transforming ideas into market-ready solutions, I founded Rovamo with a clear mission: to help businesses leverage technology as their competitive advantage. Drawing from my extensive background working with Fortune 500 companies and enterprise clients across multiple industries, I recognized that too many businesses struggle to bridge the gap between innovative ideas and practical implementation. My wealth of experience in product management, business analysis, and technical development led me to create Rovamo as a complete product development partner. My core philosophy remains simple yet powerful: technology should always serve business success, not complicate it.
 								</p>
 
 								<ul className="social-link">
@@ -33,7 +33,8 @@ const TeamDetails = () => {
 										<a
 											href="https://www.linkedin.com/in/murt4z4/"
 											target="_blank">
-											<i className="bi bi-linkedin"></i>
+											<i className="bi bi-linkedin" style={{ color: '#0A66C2' }}></i>
+
 										</a>
 									</li>
 								</ul>

@@ -154,7 +154,7 @@ const Page = () => {
 		<div>
 			<BreadCumb
 				Title="WEB DEVELOPMENT  "
-				content="Success Through Client Experiences"></BreadCumb>
+				content="Our service covers complete front-end and back-end engineering to deliver a secure, high-performance, and scalable web application, building the entire technical foundation of your product on a modern stack designed for long-term growth."></BreadCumb>
 			<ServicesDetailsMVPDevelopment />
 			<ProcessForALL />
 			<Pricing1></Pricing1>

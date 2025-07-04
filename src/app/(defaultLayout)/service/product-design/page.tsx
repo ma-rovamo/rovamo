@@ -154,7 +154,7 @@ const Page = () => {
 		<div>
 			<BreadCumb
 				Title="PRODUCT DESIGN "
-				content="Success Through Client Experiences"></BreadCumb>
+				content="We design intuitive, data-driven interfaces and user experiences that translate complex functionality into a simple and engaging product. Our focus is on creating a seamless journey that maximizes user adoption and satisfaction."></BreadCumb>
 			<ServicesDetailsMVPDevelopment />
 			<ProcessForALL />
 			<Pricing1></Pricing1>

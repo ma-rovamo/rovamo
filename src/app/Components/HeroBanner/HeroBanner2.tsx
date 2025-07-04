@@ -46,8 +46,7 @@ const HeroBanner2 = () => {
 								<div className="text-box pf_fadeup ">
 									<p>
 										Delivering intelligent automation, rapid prototyping,
-										strategic AI consulting, and scalable development solutions
-										that accelerate your.
+										strategic AI consulting, and scalable development solutions.
 									</p>
 									<div className="hero-button">
 										<Link href="/about" className="theme-btn style-one">
