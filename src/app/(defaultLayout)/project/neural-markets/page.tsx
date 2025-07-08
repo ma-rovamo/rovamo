@@ -12,7 +12,7 @@ const ProjectDetails = () => {
 						<div className="col-lg-12">
 							<div className="agenko-image text-center mb-50 pf_fadeup">
 								<Image
-									src="/images/enerlytics/enerlytics-1.jpg"
+									src="/images/fintech/main-header.jpg"
 									alt="img"
 									width={1290}
 									height={600}
@@ -114,7 +114,7 @@ const ProjectDetails = () => {
 						<div className="col-lg-12">
 							<div className="agenko-image text-center mb-50 pf_fadeup">
 								<Image
-									src="/images/enerlytics/enerlytics-2.jpg"
+									src="/images/fintech/fintech-2.jpg"
 									alt="img"
 									width={1290}
 									height={600}
@@ -185,7 +185,7 @@ const ProjectDetails = () => {
 						<div className="col-lg-12">
 							<div className="agenko-image mb-40 w-100">
 								<Image
-									src="/images/enerlytics/enerlytics-3.jpg"
+									src="/images/fintech/fintech-3.jpg"
 									alt="img"
 									width={1290}
 									height={600}
@@ -248,7 +248,23 @@ const ProjectDetails = () => {
 						<div className="col-lg-12">
 							<div className="agenko-image mb-40 w-100">
 								<Image
-									src="/images/enerlytics/enerlytics-4.jpg"
+									src="/images/fintech/fintech-4.jpg"
+									alt="img"
+									width={1290}
+									height={600}
+									className="img-fluid w-100 h-auto object-cover"
+									style={{ objectFit: "cover" }}
+								/>
+							</div>
+						</div>
+					</div>
+
+					{/* Results Image */}
+					<div className="row">
+						<div className="col-lg-12">
+							<div className="agenko-image mb-40 w-100">
+								<Image
+									src="/images/fintech/fintech-5.jpg"
 									alt="img"
 									width={1290}
 									height={600}
@@ -311,22 +327,6 @@ const ProjectDetails = () => {
 										</span>
 									</li>
 								</ul>
-							</div>
-						</div>
-					</div>
-
-					{/* Results Image */}
-					<div className="row">
-						<div className="col-lg-12">
-							<div className="agenko-image mb-40 w-100">
-								<Image
-									src="/images/enerlytics/enerlytics-5.jpg"
-									alt="img"
-									width={1290}
-									height={600}
-									className="img-fluid w-100 h-auto object-cover"
-									style={{ objectFit: "cover" }}
-								/>
 							</div>
 						</div>
 					</div>

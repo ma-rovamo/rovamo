@@ -56,20 +56,44 @@ const ProjectDetails = () => {
 								several key objectives for the MVP to ensure it would deliver
 								immediate value and validate their business concept.
 							</p> */}
-							<div className="lh-lg">
-								<li>
-									<b>Centralize multi-property tax management </b>  across jurisdictions and deadlines
+							<ul className="lh-lg list-unstyled">
+								<li className="d-flex align-items-start gap-2">
+									<i
+										className="bi bi-dot"
+										style={{ color: "#00C27C", fontSize: "1.25rem" }}></i>
+									<span>
+										<b>Centralize multi-property tax management</b> across
+										jurisdictions and deadlines
+									</span>
 								</li>
-								<li>
-									<b>Automate tax filing workflows </b> with smart reminders and status tracking
+								<li className="d-flex align-items-start gap-2">
+									<i
+										className="bi bi-dot"
+										style={{ color: "#00C27C", fontSize: "1.25rem" }}></i>
+									<span>
+										<b>Automate tax filing workflows</b> with smart reminders
+										and status tracking
+									</span>
 								</li>
-								<li>
-									<b>Streamline document management </b> with secure storage and e-signatures
+								<li className="d-flex align-items-start gap-2">
+									<i
+										className="bi bi-dot"
+										style={{ color: "#00C27C", fontSize: "1.25rem" }}></i>
+									<span>
+										<b>Streamline document management</b> with secure storage
+										and e-signatures
+									</span>
 								</li>
-								<li>
-									<b>Enhance stakeholder communication</b>  through integrated messaging systems
+								<li className="d-flex align-items-start gap-2">
+									<i
+										className="bi bi-dot"
+										style={{ color: "#00C27C", fontSize: "1.25rem" }}></i>
+									<span>
+										<b>Enhance stakeholder communication</b> through integrated
+										messaging systems
+									</span>
 								</li>
-							</div>
+							</ul>
 						</div>
 					</div>
 
@@ -78,7 +102,7 @@ const ProjectDetails = () => {
 						<div className="col-lg-12">
 							<div className="agenko-image text-center mb-50 pf_fadeup">
 								<Image
-										src="/images/revalio/revalio-1.jpg"
+									src="/images/revalio/revalio-1.jpg"
 									alt="img"
 									width={1290}
 									height={600}
@@ -99,20 +123,44 @@ const ProjectDetails = () => {
 								hampered by outdated, manual processes that could not keep pace
 								with their growth. The core challenges we identified were:
 							</p> */}
-							<div className="lh-lg">
-								<li>
-									<b>Multi-jurisdiction compliance</b> with varying requirements and deadlines
+							<ul className="lh-lg list-unstyled">
+								<li className="d-flex align-items-start gap-2">
+									<i
+										className="bi bi-dot"
+										style={{ color: "#00C27C", fontSize: "1.25rem" }}></i>
+									<span>
+										<b>Multi-jurisdiction compliance</b> with varying
+										requirements and deadlines
+									</span>
 								</li>
-								<li>
-									<b>Secure document handling</b> for sensitive tax information and workflows
+								<li className="d-flex align-items-start gap-2">
+									<i
+										className="bi bi-dot"
+										style={{ color: "#00C27C", fontSize: "1.25rem" }}></i>
+									<span>
+										<b>Secure document handling</b> for sensitive tax
+										information and workflows
+									</span>
 								</li>
-								<li>
-									<b>Real-time status synchronization	</b> across properties and filing stages
+								<li className="d-flex align-items-start gap-2">
+									<i
+										className="bi bi-dot"
+										style={{ color: "#00C27C", fontSize: "1.25rem" }}></i>
+									<span>
+										<b>Real-time status synchronization</b> across properties
+										and filing stages
+									</span>
 								</li>
-								<li>
-									<b>Complex payment integration</b> supporting multiple methods and invoicing
+								<li className="d-flex align-items-start gap-2">
+									<i
+										className="bi bi-dot"
+										style={{ color: "#00C27C", fontSize: "1.25rem" }}></i>
+									<span>
+										<b>Complex payment integration</b> supporting multiple
+										methods and invoicing
+									</span>
 								</li>
-							</div>
+							</ul>
 						</div>
 					</div>
 
@@ -121,7 +169,7 @@ const ProjectDetails = () => {
 						<div className="col-lg-12">
 							<div className="agenko-image mb-40 w-100">
 								<Image
-										src="/images/revalio/revalio-2.jpg"
+									src="/images/revalio/revalio-2.jpg"
 									alt="img"
 									width={1290}
 									height={600}
@@ -188,7 +236,23 @@ const ProjectDetails = () => {
 						<div className="col-lg-12">
 							<div className="agenko-image mb-40 w-100">
 								<Image
-										src="/images/revalio/revalio-3.jpg"
+									src="/images/revalio/revalio-3.jpg"
+									alt="img"
+									width={1290}
+									height={600}
+									className="img-fluid w-100 h-auto object-cover"
+									style={{ objectFit: "cover" }}
+								/>
+							</div>
+						</div>
+					</div>
+
+					{/* Final Image */}
+					<div className="row">
+						<div className="col-lg-12">
+							<div className="agenko-image mb-40 w-100">
+								<Image
+									src="/images/revalio/revalio-4.jpg"
 									alt="img"
 									width={1290}
 									height={600}
@@ -210,36 +274,44 @@ const ProjectDetails = () => {
 								immediate, measurable value and successfully validated their
 								vision for a unified platform.
 							</p> */}
-							<div className="lh-lg">
-								<li>
-									<b>60% faster tax filing process</b>from weeks to days across portfolios
+							<ul className="lh-lg list-unstyled">
+								<li className="d-flex align-items-start gap-2">
+									<i
+										className="bi bi-dot"
+										style={{ color: "#00C27C", fontSize: "1.25rem" }}></i>
+									<span>
+										<b>60% faster tax filing process</b> from weeks to days
+										across portfolios
+									</span>
 								</li>
-								<li>
-									<b>Zero missed filing deadlines </b> eliminating $2,500 average penalty fees
+								<li className="d-flex align-items-start gap-2">
+									<i
+										className="bi bi-dot"
+										style={{ color: "#00C27C", fontSize: "1.25rem" }}></i>
+									<span>
+										<b>Zero missed filing deadlines</b> eliminating $2,500
+										average penalty fees
+									</span>
 								</li>
-								<li>
-									<b>75% faster communication</b> through centralized messaging threads
+								<li className="d-flex align-items-start gap-2">
+									<i
+										className="bi bi-dot"
+										style={{ color: "#00C27C", fontSize: "1.25rem" }}></i>
+									<span>
+										<b>75% faster communication</b> through centralized
+										messaging threads
+									</span>
 								</li>
-								<li>
-									<b>95% user satisfaction rate</b> with minimal training requirements
+								<li className="d-flex align-items-start gap-2">
+									<i
+										className="bi bi-dot"
+										style={{ color: "#00C27C", fontSize: "1.25rem" }}></i>
+									<span>
+										<b>95% user satisfaction rate</b> with minimal training
+										requirements
+									</span>
 								</li>
-							</div>
-						</div>
-					</div>
-
-					{/* Final Image */}
-					<div className="row">
-						<div className="col-lg-12">
-							<div className="agenko-image mb-40 w-100">
-								<Image
-										src="/images/revalio/revalio-4.jpg"
-									alt="img"
-									width={1290}
-									height={600}
-									className="img-fluid w-100 h-auto object-cover"
-									style={{ objectFit: "cover" }}
-								/>
-							</div>
+							</ul>
 						</div>
 					</div>
 				</div>

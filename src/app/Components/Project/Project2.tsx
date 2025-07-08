@@ -4,40 +4,41 @@ import Image from "next/image";
 const Project2 = () => {
 	const chooseContent = [
 		{
+			img: "/images/fintech/fintech-thumbnail.jpg",
+			slug: "neural-markets",
+			title: "Neural Markets - AI Investment Platform",
+			cat1: "CRM Integration",
+			cat2: "Business Intelligence",
+		},
+		{
 			img: "/images/revalio/revalio-thumbnail.jpg",
 			slug: "project-details",
 			title: "Revalio - Property Tax Management Platform",
 			cat1: "Web Application",
 			cat2: "Full-Stack Development",
 		},
-		{
-			img: "/images/equity/equity-thumbnail.jpg",
-			slug: "equity-vantage",
-			title: "Equity Vantage Platform",
-			cat1: "Web Design",
-			cat2: "Frontend Development",
-		},
-		{
-			img: "/images/enerlytics/enerlytics-thumbnail.jpg",
-			slug: "enerlytics",
-			title: "Enerlytics - Energy Management Platform",
-			cat1: "UI/UX Design",
-			cat2: "Data Visualization",
-		},
-		{
-			img: "/images/locentrix/locentrix-thumbail.jpg",
-			slug: "locentrix",
-			title: "Locentrix - Retail Expansion Platform",
-			cat1: "CRM Integration",
-			cat2: "Business Intelligence",
-		},
-		{
-			img: "/images/locentrix/locentrix-thumbail.jpg",
-			slug: "neural-markets",
-			title: "Neural Markets - AI Investment Platform",
-			cat1: "CRM Integration",
-			cat2: "Business Intelligence",
-		},
+		// {
+		// 	img: "/images/equity/equity-thumbnail.jpg",
+		// 	slug: "equity-vantage",
+		// 	title: "Equity Vantage Platform",
+		// 	cat1: "Web Design",
+		// 	cat2: "Frontend Development",
+		// },
+		// {
+		// 	img: "/images/enerlytics/enerlytics-thumbnail.jpg",
+		// 	slug: "enerlytics",
+		// 	title: "Enerlytics - Energy Management Platform",
+		// 	cat1: "UI/UX Design",
+		// 	cat2: "Data Visualization",
+		// },
+		// {
+		// 	img: "/images/locentrix/locentrix-thumbail.jpg",
+		// 	slug: "locentrix",
+		// 	title: "Locentrix - Retail Expansion Platform",
+		// 	cat1: "CRM Integration",
+		// 	cat2: "Business Intelligence",
+		// },
+		
 	];
 
 	return (
@@ -50,7 +51,7 @@ const Project2 = () => {
 							<h2>Building Tomorrow Digital Experiences Today</h2>
 						</div>
 					</div>
-					{/* <div className="col-lg-5">
+					<div className="col-lg-5">
 						<div className="agk-button mb-60 float-lg-end pf_fadeup">
 							<Link href="/project" className="theme-btn style-one">
 								<span className="text-flip">
@@ -59,7 +60,7 @@ const Project2 = () => {
 								</span>
 							</Link>
 						</div>
-					</div> */}
+					</div>
 				</div>
 				<div className="row">
 					{chooseContent.map((item, i) => (

@@ -13,7 +13,7 @@ const ProjectDetails = () => {
 						<div className="col-lg-12">
 							<div className="agenko-image text-center mb-50 pf_fadeup">
 								<Image
-									src="/images/locentrix/locentrix-1.jpg"
+									src="/images/locentrix/main-header.jpg"
 									alt="img"
 									width={1290}
 									height={600}
@@ -62,20 +62,44 @@ const ProjectDetails = () => {
 								Locentrix MVP delivered immediate value and validated its
 								potential to revolutionize the CRE leasing market.
 							</p> */}
-							<div className="lh-lg">
-								<li>
-									<b>Intelligent location matching</b>  using AI-powered demographic analytics.
+							<ul className="lh-lg list-unstyled">
+								<li className="d-flex align-items-start gap-2">
+									<i
+										className="bi bi-dot"
+										style={{ color: "#00C27C", fontSize: "1.25rem" }}></i>
+									<span>
+										<b>Intelligent location matching</b> using AI-powered
+										demographic analytics.
+									</span>
 								</li>
-								<li>
-									<b>Streamline expansion workflows </b> connecting brands, brokers, and centers.
+								<li className="d-flex align-items-start gap-2">
+									<i
+										className="bi bi-dot"
+										style={{ color: "#00C27C", fontSize: "1.25rem" }}></i>
+									<span>
+										<b>Streamline expansion workflows</b> connecting brands,
+										brokers, and centers.
+									</span>
 								</li>
-								<li>
-									<b>Enhanced market intelligence</b> with real-time performance data.
+								<li className="d-flex align-items-start gap-2">
+									<i
+										className="bi bi-dot"
+										style={{ color: "#00C27C", fontSize: "1.25rem" }}></i>
+									<span>
+										<b>Enhanced market intelligence</b> with real-time
+										performance data.
+									</span>
 								</li>
-								<li>
-									<b>Accelerate deal pipeline</b> through automated lead tracking and analytics.
+								<li className="d-flex align-items-start gap-2">
+									<i
+										className="bi bi-dot"
+										style={{ color: "#00C27C", fontSize: "1.25rem" }}></i>
+									<span>
+										<b>Accelerate deal pipeline</b> through automated lead
+										tracking and analytics.
+									</span>
 								</li>
-							</div>
+							</ul>
 						</div>
 					</div>
 
@@ -105,20 +129,44 @@ const ProjectDetails = () => {
 								friction and missed opportunities. The core challenges we needed
 								to solve were:
 							</p> */}
-							<div className="lh-lg">
-								<li>
-									<b>Complex matching algorithms</b> evaluating demographics and co-tenancy
+							<ul className="lh-lg list-unstyled">
+								<li className="d-flex align-items-start gap-2">
+									<i
+										className="bi bi-dot"
+										style={{ color: "#00C27C", fontSize: "1.25rem" }}></i>
+									<span>
+										<b>Complex matching algorithms</b> evaluating demographics
+										and co-tenancy
+									</span>
 								</li>
-								<li>
-									<b>Real-time market integration</b> from multiple dynamic data sources
+								<li className="d-flex align-items-start gap-2">
+									<i
+										className="bi bi-dot"
+										style={{ color: "#00C27C", fontSize: "1.25rem" }}></i>
+									<span>
+										<b>Real-time market integration</b> from multiple dynamic
+										data sources
+									</span>
 								</li>
-								<li>
-									<b>Multi-user role management </b> for brands, brokers, and center managers
+								<li className="d-flex align-items-start gap-2">
+									<i
+										className="bi bi-dot"
+										style={{ color: "#00C27C", fontSize: "1.25rem" }}></i>
+									<span>
+										<b>Multi-user role management</b> for brands, brokers, and
+										center managers
+									</span>
 								</li>
-								<li>
-									<b>Scalable geographic coverage </b> maintaining data accuracy across markets
+								<li className="d-flex align-items-start gap-2">
+									<i
+										className="bi bi-dot"
+										style={{ color: "#00C27C", fontSize: "1.25rem" }}></i>
+									<span>
+										<b>Scalable geographic coverage</b> maintaining data
+										accuracy across markets
+									</span>
 								</li>
-							</div>
+							</ul>
 						</div>
 					</div>
 
@@ -215,37 +263,6 @@ const ProjectDetails = () => {
 						</div>
 					</div>
 
-					{/* Results & Impact */}
-					<div className="row align-items-start mb-5">
-						<div className="col-lg-4">
-							<h3 className="pf_fadeup">Results</h3>
-						</div>
-						<div className="col-lg-8">
-							{/* <p className="pf_fadeup">
-								The Locentrix MVP we delivered successfully validated the
-								client's vision, providing a powerful tool that was immediately
-								embraced by its first users.
-							</p> */}
-							<div className="lh-lg">
-								<li>
-									<b>75% faster site selection</b> from months to weeks using AI matching
-								</li>
-								<li>
-									<b>
-										92% match accuracy rate 
-									</b>{" "}
-									improving lease conversion and satisfaction
-								</li>
-								<li>
-									<b>40% higher deal conversion</b> through streamlined stakeholder coordination
-								</li>
-								<li>
-									<b>500+ shopping centers mapped </b> providing unprecedented market visibility
-								</li>
-							</div>
-						</div>
-					</div>
-
 					{/* Final Image */}
 					<div className="row">
 						<div className="col-lg-12">
@@ -259,6 +276,58 @@ const ProjectDetails = () => {
 									style={{ objectFit: "cover" }}
 								/>
 							</div>
+						</div>
+					</div>
+
+					{/* Results & Impact */}
+					<div className="row align-items-start mb-5">
+						<div className="col-lg-4">
+							<h3 className="pf_fadeup">Results</h3>
+						</div>
+						<div className="col-lg-8">
+							{/* <p className="pf_fadeup">
+								The Locentrix MVP we delivered successfully validated the
+								client's vision, providing a powerful tool that was immediately
+								embraced by its first users.
+							</p> */}
+							<ul className="lh-lg list-unstyled">
+								<li className="d-flex align-items-start gap-2">
+									<i
+										className="bi bi-dot"
+										style={{ color: "#00C27C", fontSize: "1.25rem" }}></i>
+									<span>
+										<b>75% faster site selection</b> from months to weeks using
+										AI matching
+									</span>
+								</li>
+								<li className="d-flex align-items-start gap-2">
+									<i
+										className="bi bi-dot"
+										style={{ color: "#00C27C", fontSize: "1.25rem" }}></i>
+									<span>
+										<b>92% match accuracy rate</b> improving lease conversion
+										and satisfaction
+									</span>
+								</li>
+								<li className="d-flex align-items-start gap-2">
+									<i
+										className="bi bi-dot"
+										style={{ color: "#00C27C", fontSize: "1.25rem" }}></i>
+									<span>
+										<b>40% higher deal conversion</b> through streamlined
+										stakeholder coordination
+									</span>
+								</li>
+								<li className="d-flex align-items-start gap-2">
+									<i
+										className="bi bi-dot"
+										style={{ color: "#00C27C", fontSize: "1.25rem" }}></i>
+									<span>
+										<b>500+ shopping centers mapped</b> providing unprecedented
+										market visibility
+									</span>
+								</li>
+							</ul>
 						</div>
 					</div>
 				</div>

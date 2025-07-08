@@ -13,7 +13,7 @@ const ProjectDetails = () => {
 						<div className="col-lg-12">
 							<div className="agenko-image text-center mb-50 pf_fadeup">
 								<Image
-									src="/images/equity/equity-1.jpg"
+									src="/images/equity/main-header.jpg"
 									alt="img"
 									width={1290}
 									height={600}
@@ -68,20 +68,44 @@ const ProjectDetails = () => {
 									the MVP delivered immediate, tangible value and set a strong
 									foundation for future success.
 								</p> */}
-								<div className="lh-lg">
-									<li>
-										<b>Streamline multi-company equity management</b> from single dashboard
+								<ul className="lh-lg list-unstyled">
+									<li className="d-flex align-items-start gap-2">
+										<i
+											className="bi bi-dot"
+											style={{ color: "#00C27C", fontSize: "1.25rem" }}></i>
+										<span>
+											<b>Streamline multi-company equity management</b> from
+											single dashboard
+										</span>
 									</li>
-									<li>
-										<b>Automate compliance tracking </b> with intelligent alerts and deadlines
+									<li className="d-flex align-items-start gap-2">
+										<i
+											className="bi bi-dot"
+											style={{ color: "#00C27C", fontSize: "1.25rem" }}></i>
+										<span>
+											<b>Automate compliance tracking</b> with intelligent
+											alerts and deadlines
+										</span>
 									</li>
-									<li>
-										<b>Enhance transparency</b> with real-time reporting and analytics
+									<li className="d-flex align-items-start gap-2">
+										<i
+											className="bi bi-dot"
+											style={{ color: "#00C27C", fontSize: "1.25rem" }}></i>
+										<span>
+											<b>Enhance transparency</b> with real-time reporting and
+											analytics
+										</span>
 									</li>
-									<li>
-										<b>Reduce administrative burden</b>  through automated workflows
+									<li className="d-flex align-items-start gap-2">
+										<i
+											className="bi bi-dot"
+											style={{ color: "#00C27C", fontSize: "1.25rem" }}></i>
+										<span>
+											<b>Reduce administrative burden</b> through automated
+											workflows
+										</span>
 									</li>
-								</div>
+								</ul>
 							</div>
 						</div>
 					</div>
@@ -115,21 +139,44 @@ const ProjectDetails = () => {
 									for the target audience was defined by inefficiency and risk.
 									The primary challenges we needed to solve were:
 								</p> */}
-								<div className="lh-lg">
-									<li>
-										<b>Complex multi-entity architecture </b> with distinct structures and compliance needs
+								<ul className="lh-lg list-unstyled">
+									<li className="d-flex align-items-start gap-2">
+										<i
+											className="bi bi-dot"
+											style={{ color: "#00C27C", fontSize: "1.25rem" }}></i>
+										<span>
+											<b>Complex multi-entity architecture</b> with distinct
+											structures and compliance needs
+										</span>
 									</li>
-									<li>
-										<b>Real-time data synchronization </b>  across transactions and corporate actions
+									<li className="d-flex align-items-start gap-2">
+										<i
+											className="bi bi-dot"
+											style={{ color: "#00C27C", fontSize: "1.25rem" }}></i>
+										<span>
+											<b>Real-time data synchronization</b> across transactions
+											and corporate actions
+										</span>
 									</li>
-									<li>
-										<b>Multi-stakeholder user experience </b>  balancing functionality with intuitive navigation
+									<li className="d-flex align-items-start gap-2">
+										<i
+											className="bi bi-dot"
+											style={{ color: "#00C27C", fontSize: "1.25rem" }}></i>
+										<span>
+											<b>Multi-stakeholder user experience</b> balancing
+											functionality with intuitive navigation
+										</span>
 									</li>
-									<li>
-										<b>Enterprise security requirements </b>  for sensitive financial data and audit trails
+									<li className="d-flex align-items-start gap-2">
+										<i
+											className="bi bi-dot"
+											style={{ color: "#00C27C", fontSize: "1.25rem" }}></i>
+										<span>
+											<b>Enterprise security requirements</b> for sensitive
+											financial data and audit trails
+										</span>
 									</li>
-									
-								</div>
+								</ul>
 							</div>
 						</div>
 					</div>
@@ -225,38 +272,6 @@ const ProjectDetails = () => {
 						</div>
 					</div>
 
-					{/* Results & Impact */}
-					<div className="row align-items-start mb-5">
-						<div className="col-lg-4">
-							<div className="pf_fadeup">
-								<h3>Results</h3>
-							</div>
-						</div>
-						<div className="col-lg-8">
-							<div className="pf_fadeup">
-								{/* <p>
-									The launch of the Equity Vantage MVP was a resounding success,
-									delivering immediate value to the client and its first users
-									while validating the core business concept.
-								</p> */}
-								<div className="lh-lg">
-									<li>
-										<b>40% reduction in administrative time</b> through automated workflows
-									</li>
-									<li>
-										<b>Zero missed compliance deadlines </b> with proactive alerts and tracking
-									</li>
-									<li>
-										<b>70% faster due diligence preparation </b> for funding rounds
-									</li>
-									<li>
-										<b>90% user adoption rate </b> within first month of implementation
-									</li>
-								</div>
-							</div>
-						</div>
-					</div>
-
 					{/* Results Image */}
 					<div className="row">
 						<div className="col-lg-12">
@@ -272,6 +287,62 @@ const ProjectDetails = () => {
 							</div>
 						</div>
 					</div>
+
+					{/* Results & Impact */}
+					<div className="row align-items-start mb-5">
+						<div className="col-lg-4">
+							<div className="pf_fadeup">
+								<h3>Results</h3>
+							</div>
+						</div>
+						<div className="col-lg-8">
+							<div className="pf_fadeup">
+								{/* <p>
+									The launch of the Equity Vantage MVP was a resounding success,
+									delivering immediate value to the client and its first users
+									while validating the core business concept.
+								</p> */}
+								<ul className="lh-lg list-unstyled">
+									<li className="d-flex align-items-start gap-2">
+										<i
+											className="bi bi-dot"
+											style={{ color: "#00C27C", fontSize: "1.25rem" }}></i>
+										<span>
+											<b>40% reduction in administrative time</b> through
+											automated workflows
+										</span>
+									</li>
+									<li className="d-flex align-items-start gap-2">
+										<i
+											className="bi bi-dot"
+											style={{ color: "#00C27C", fontSize: "1.25rem" }}></i>
+										<span>
+											<b>Zero missed compliance deadlines</b> with proactive
+											alerts and tracking
+										</span>
+									</li>
+									<li className="d-flex align-items-start gap-2">
+										<i
+											className="bi bi-dot"
+											style={{ color: "#00C27C", fontSize: "1.25rem" }}></i>
+										<span>
+											<b>70% faster due diligence preparation</b> for funding
+											rounds
+										</span>
+									</li>
+									<li className="d-flex align-items-start gap-2">
+										<i
+											className="bi bi-dot"
+											style={{ color: "#00C27C", fontSize: "1.25rem" }}></i>
+										<span>
+											<b>90% user adoption rate</b> within first month of
+											implementation
+										</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
@@ -282,8 +353,8 @@ const page = () => {
 		<div>
 			<BreadCumb
 				Title="Equity Vantage Platform "
-				button="View Demo" 
-				 link="https://fundmgmnt.netlify.app/"
+				button="View Demo"
+				link="https://fundmgmnt.netlify.app/"
 				content="An enterprise platform that replaces spreadsheet-based equity
 management with real-time cap tables, automated compliance tracking, and comprehensive reporting"></BreadCumb>
 			<ProjectDetails></ProjectDetails>

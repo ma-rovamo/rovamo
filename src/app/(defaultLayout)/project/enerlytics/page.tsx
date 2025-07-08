@@ -12,7 +12,7 @@ const ProjectDetails = () => {
 						<div className="col-lg-12">
 							<div className="agenko-image text-center mb-50 pf_fadeup">
 								<Image
-									src="/images/enerlytics/enerlytics-1.jpg"
+									src="/images/enerlytics/main-header.jpg"
 									alt="img"
 									width={1290}
 									height={600}
@@ -259,6 +259,22 @@ const ProjectDetails = () => {
 						</div>
 					</div>
 
+					{/* Results Image */}
+					<div className="row">
+						<div className="col-lg-12">
+							<div className="agenko-image mb-40 w-100">
+								<Image
+									src="/images/enerlytics/enerlytics-5.jpg"
+									alt="img"
+									width={1290}
+									height={600}
+									className="img-fluid w-100 h-auto object-cover"
+									style={{ objectFit: "cover" }}
+								/>
+							</div>
+						</div>
+					</div>
+
 					{/* Results */}
 					<div className="row align-items-start mb-5">
 						<div className="col-lg-4">
@@ -311,22 +327,6 @@ const ProjectDetails = () => {
 										</span>
 									</li>
 								</ul>
-							</div>
-						</div>
-					</div>
-
-					{/* Results Image */}
-					<div className="row">
-						<div className="col-lg-12">
-							<div className="agenko-image mb-40 w-100">
-								<Image
-									src="/images/enerlytics/enerlytics-5.jpg"
-									alt="img"
-									width={1290}
-									height={600}
-									className="img-fluid w-100 h-auto object-cover"
-									style={{ objectFit: "cover" }}
-								/>
 							</div>
 						</div>
 					</div>
