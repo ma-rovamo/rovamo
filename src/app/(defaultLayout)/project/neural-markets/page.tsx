@@ -240,9 +240,9 @@ const ProjectDetails = () => {
                             </div>
                         </div>
                     </div> */}
-					<div className="mb-5">
+					{/* <div className="mb-5">
 						<EnerlyticsCustomerFlowchart />
-					</div>
+					</div> */}
 					{/* Solution Image */}
 					<div className="row">
 						<div className="col-lg-12">
