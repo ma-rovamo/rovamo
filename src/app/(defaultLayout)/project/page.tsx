@@ -22,7 +22,7 @@ const Project2 = () => {
 		{
 			img: "/images/equity/equity-thumbnail.jpg",
 			slug: "equity-vantage",
-			title: "Equity Vantage Platform",
+			title: "Equity Vantage - Cap Table Management",
 			cat1: "Web Design",
 			cat2: "Frontend Development",
 		},
