@@ -352,7 +352,7 @@ const page = () => {
 	return (
 		<div>
 			<BreadCumb
-				Title="Equity Vantage Platform "
+				Title="Equity Vantage - Cap Table Management"
 				button="View Demo"
 				link="https://fundmgmnt.netlify.app/"
 				content="An enterprise platform that replaces spreadsheet-based equity
