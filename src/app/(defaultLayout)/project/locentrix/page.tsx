@@ -24,7 +24,7 @@ const ProjectDetails = () => {
 					</div>
 
 					{/* Intro Section */}
-					<div className="row align-items-start mb-5">
+					{/* <div className="row align-items-start mb-5">
 						<div className="col-lg-4">
 							<h2 className="pf_fadeup">
 								Connecting Brands, Brokers, and Shopping Centers with a Unified
@@ -48,7 +48,7 @@ const ProjectDetails = () => {
 								intelligent network.
 							</p>
 						</div>
-					</div>
+					</div> */}
 
 					{/* Objectives */}
 					<div className="row align-items-start mb-5">
@@ -56,37 +56,24 @@ const ProjectDetails = () => {
 							<h3 className="pf_fadeup">Objectives</h3>
 						</div>
 						<div className="col-lg-8">
-							<p className="pf_fadeup">
+							{/* <p className="pf_fadeup">
 								In our initial discovery phase, we collaborated with the client
 								to define four critical objectives that would ensure the
 								Locentrix MVP delivered immediate value and validated its
 								potential to revolutionize the CRE leasing market.
-							</p>
+							</p> */}
 							<div className="lh-lg">
 								<li>
-									<b>Digitize the Discovery & Matching Process:</b> To replace
-									inefficient, relationship-based prospecting with a powerful,
-									algorithm-driven engine that objectively matches brands with
-									ideal shopping center locations based on deep criteria.
+									<b>Intelligent location matching</b>  using AI-powered demographic analytics.
 								</li>
 								<li>
-									<b>Create a Symbiotic, Multi-Sided Ecosystem:</b> To build a
-									single platform where all three key stakeholders—Brands,
-									Shopping Centers, and Brokers—could interact, manage
-									workflows, and find opportunities in a transparent and
-									cohesive environment.
+									<b>Streamline expansion workflows </b> connecting brands, brokers, and centers.
 								</li>
 								<li>
-									<b>Deliver Data-Driven, Actionable Insights:</b> To empower
-									users with quantifiable data, such as detailed "Match Scores,"
-									deal pipeline analytics, and lead management funnels, enabling
-									them to move from guesswork to strategic decision-making.
+									<b>Enhanced market intelligence</b> with real-time performance data.
 								</li>
 								<li>
-									<b>Develop a Scalable, Market-Ready MVP:</b> To engineer a
-									robust and secure foundation that could launch quickly to test
-									the core business model while being flexible enough to scale
-									and accommodate future features and a growing user base.
+									<b>Accelerate deal pipeline</b> through automated lead tracking and analytics.
 								</li>
 							</div>
 						</div>
@@ -113,39 +100,23 @@ const ProjectDetails = () => {
 							<h3 className="pf_fadeup">The Challenge</h3>
 						</div>
 						<div className="col-lg-8">
-							<p className="pf_fadeup">
+							{/* <p className="pf_fadeup">
 								Before Locentrix, the retail leasing landscape was defined by
 								friction and missed opportunities. The core challenges we needed
 								to solve were:
-							</p>
+							</p> */}
 							<div className="lh-lg">
 								<li>
-									<b>A Fragmented and Opaque Ecosystem:</b> Brands seeking to
-									expand had no central place to find viable locations that fit
-									their specific needs. Likewise, shopping centers struggled to
-									identify and attract the right kind of tenants to create a
-									vibrant retail mix.
+									<b>Complex matching algorithms</b> evaluating demographics and co-tenancy
 								</li>
 								<li>
-									<b>Inefficient, Relationship-Based Deal Flow:</b> The process
-									was heavily reliant on cold calls, email chains, and personal
-									networks. This made deal sourcing slow and limited the scope
-									of opportunities for all parties involved, especially for
-									those outside established circles.
+									<b>Real-time market integration</b> from multiple dynamic data sources
 								</li>
 								<li>
-									<b>Absence of Data-Driven Decision-Making:</b> Critical
-									leasing decisions were often based on intuition rather than
-									objective data. Brands couldn't easily quantify a location's
-									fit, and landlords couldn't scientifically prove their center
-									was the right choice for a target tenant.
+									<b>Multi-user role management </b> for brands, brokers, and center managers
 								</li>
 								<li>
-									<b>Missed Opportunities and Slow Growth:</b> The sheer time
-									and administrative overhead required to identify, vet, and
-									close a deal meant that promising matches were often missed,
-									slowing down expansion plans for brands and increasing vacancy
-									rates for centers.
+									<b>Scalable geographic coverage </b> maintaining data accuracy across markets
 								</li>
 							</div>
 						</div>
@@ -168,7 +139,7 @@ const ProjectDetails = () => {
 					</div>
 
 					{/* Our Solution */}
-					<div className="row align-items-start mb-5">
+					{/* <div className="row align-items-start mb-5">
 						<div className="col-lg-4">
 							<h3 className="pf_fadeup">
 								Our Solution: A Multi-Sided CRE Intelligence Platform
@@ -224,7 +195,7 @@ const ProjectDetails = () => {
 								</li>
 							</div>
 						</div>
-					</div>
+					</div> */}
 					<div className="mb-5">
 						<LocentrixBrandFlowchart />
 					</div>
@@ -247,45 +218,29 @@ const ProjectDetails = () => {
 					{/* Results & Impact */}
 					<div className="row align-items-start mb-5">
 						<div className="col-lg-4">
-							<h3 className="pf_fadeup">Results & Impact</h3>
+							<h3 className="pf_fadeup">Results</h3>
 						</div>
 						<div className="col-lg-8">
-							<p className="pf_fadeup">
+							{/* <p className="pf_fadeup">
 								The Locentrix MVP we delivered successfully validated the
 								client's vision, providing a powerful tool that was immediately
 								embraced by its first users.
-							</p>
+							</p> */}
 							<div className="lh-lg">
 								<li>
-									<b>50% Faster Deal Sourcing for Brokers and Brands:</b> By
-									replacing manual prospecting with data-driven matches, the
-									platform drastically reduced the time required to build a
-									qualified pipeline of opportunities.
+									<b>75% faster site selection</b> from months to weeks using AI matching
 								</li>
 								<li>
 									<b>
-										30% Increase in High-Quality Lead Generation for Shopping
-										Centers:
+										92% match accuracy rate 
 									</b>{" "}
-									Landlords were no longer fishing in the dark. The platform
-									proactively served them a list of brands that were an
-									excellent fit, improving the quality and conversion rate of
-									their outreach.
+									improving lease conversion and satisfaction
 								</li>
 								<li>
-									<b>Unprecedented Market Clarity and Efficiency:</b> For the
-									first time, all three sides of the transaction had access to a
-									single source of truth, creating a level of transparency and
-									efficiency that was previously impossible.
+									<b>40% higher deal conversion</b> through streamlined stakeholder coordination
 								</li>
 								<li>
-									<b>A Scalable Foundation for Market Disruption:</b> The
-									successful MVP Rovamo delivered has provided our client with a
-									robust, validated foundation to expand its features and
-									disrupt the commercial real estate industry. This project
-									showcases our ability to translate a complex, multi-faceted
-									business challenge into a sleek, effective, and future-proof
-									digital product.
+									<b>500+ shopping centers mapped </b> providing unprecedented market visibility
 								</li>
 							</div>
 						</div>
@@ -296,7 +251,7 @@ const ProjectDetails = () => {
 						<div className="col-lg-12">
 							<div className="agenko-image mb-40 w-100">
 								<Image
-								src="/images/locentrix/locentrix-5.jpg"
+									src="/images/locentrix/locentrix-5.jpg"
 									alt="img"
 									width={1290}
 									height={600}
@@ -315,9 +270,9 @@ const page = () => {
 	return (
 		<div>
 			<BreadCumb
-				Title="Locentrix - Commercial Real Estate Marketplace "
-				 button="View Demo" 
-				 link="https://locentrix.hellorovamo.com/"
+				Title="Locentrix - Retail Expansion Platform "
+				button="View Demo"
+				link="https://locentrix.hellorovamo.com/"
 				content="An intelligent matching platform that connects brands, shopping
 centers, and brokers through data-driven algorithms and streamlined deal management tools."></BreadCumb>
 			<ProjectDetails></ProjectDetails>
@@ -327,3 +282,4 @@ centers, and brokers through data-driven algorithms and streamlined deal managem
 };
 
 export default page;
+// Title = "Locentrix - Commercial Real Estate Marketplace ";

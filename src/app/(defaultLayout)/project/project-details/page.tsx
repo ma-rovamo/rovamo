@@ -7,9 +7,9 @@ const page = () => {
 	return (
 		<div>
 			<BreadCumb
-				Title="Revalio - Digital Property Tax Management "
-				 button="View Demo" 
-				 link="https://revalio.hellorovamo.com/"
+				Title=" Revalio - Property Tax Management Platform "
+				button="View Demo"
+				link="https://revalio.hellorovamo.com/"
 				content="A unified web platform that streamlines property tax appeals and
 valuations with automated workflows, e-signatures, and client communication tools."></BreadCumb>
 			<ProjectDetails></ProjectDetails>
@@ -19,3 +19,4 @@ valuations with automated workflows, e-signatures, and client communication tool
 };
 
 export default page;
+// Title = "Revalio - Digital Property Tax Management ";

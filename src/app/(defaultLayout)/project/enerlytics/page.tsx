@@ -23,7 +23,7 @@ const ProjectDetails = () => {
 					</div>
 
 					{/* Heading and Content Row */}
-					<div className="row align-items-start mb-5">
+					{/* <div className="row align-items-start mb-5">
 						<div className="col-lg-4">
 							<div className="pf_fadeup">
 								<h2>
@@ -50,7 +50,7 @@ const ProjectDetails = () => {
 								</p>
 							</div>
 						</div>
-					</div>
+					</div> */}
 
 					{/* Objectives */}
 					<div className="row align-items-start mb-5">
@@ -61,39 +61,50 @@ const ProjectDetails = () => {
 						</div>
 						<div className="col-lg-8">
 							<div className="pf_fadeup">
-								<p>
+								{/* <p>
 									During our discovery phase, we collaborated with the client to
 									establish four core objectives for the Enerlytics MVP,
 									ensuring it would deliver immediate value and validate their
 									transformative business model.
-								</p>
-								<div className="lh-lg">
-									<li>
-										<b>Enable Data-Driven Portfolio Management:</b> To equip
-										property managers with robust analytics and forecasting
-										tools to identify at-risk properties, model the ROI of
-										retrofits, and report on environmental and financial
-										performance.
+								</p> */}
+								<ul className="lh-lg list-unstyled">
+									<li className="d-flex align-items-start gap-2">
+										<i
+											className="bi bi-dot"
+											style={{ color: "#00C27C", fontSize: "1.25rem" }}></i>
+										<span>
+											<b>Intelligent energy monitoring</b> with real-time smart
+											meter integration
+										</span>
 									</li>
-									<li>
-										<b>Engage and Empower End-Users:</b> To provide residents
-										with a simple, intuitive dashboard that translates complex
-										energy data into clear, actionable insights, helping them
-										reduce bills and understand their carbon footprint.
+									<li className="d-flex align-items-start gap-2">
+										<i
+											className="bi bi-dot"
+											style={{ color: "#00C27C", fontSize: "1.25rem" }}></i>
+										<span>
+											<b>Automated retrofit planning</b> using AI-driven
+											property assessments
+										</span>
 									</li>
-									<li>
-										<b>Create a Symbiotic Data Ecosystem:</b> To build a
-										seamless data feedback loop where anonymized, real-time
-										consumption data from residents directly informs the
-										strategic investment decisions of portfolio managers.
+									<li className="d-flex align-items-start gap-2">
+										<i
+											className="bi bi-dot"
+											style={{ color: "#00C27C", fontSize: "1.25rem" }}></i>
+										<span>
+											<b>Multi-portfolio management</b> with centralized
+											reporting and benchmarking
+										</span>
 									</li>
-									<li>
-										<b>Build a Scalable, Market-Ready MVP:</b> To develop a
-										secure and flexible platform that could serve as the
-										foundation for future growth, capable of handling complex
-										data streams and serving thousands of properties and users.
+									<li className="d-flex align-items-start gap-2">
+										<i
+											className="bi bi-dot"
+											style={{ color: "#00C27C", fontSize: "1.25rem" }}></i>
+										<span>
+											<b>Streamlined grant access</b> integrating funding
+											opportunities automatically
+										</span>
 									</li>
-								</div>
+								</ul>
 							</div>
 						</div>
 					</div>
@@ -122,37 +133,49 @@ const ProjectDetails = () => {
 						</div>
 						<div className="col-lg-8">
 							<div className="pf_fadeup">
-								<p>
+								{/* <p>
 									Before Enerlytics, both sides of the energy equation were
 									operating with incomplete information, creating significant
 									barriers to progress.
-								</p>
-								<div className="lh-lg">
-									<li>
-										<b>Portfolio-Level Blind Spots:</b> Property managers relied
-										on static, often outdated data like EPC certificates to make
-										multi-million-pound investment decisions. They had no way to
-										accurately prioritize which properties would yield the best
-										return on retrofit investments or track the real-world
-										impact of their programs.
+								</p> */}
+								<ul className="lh-lg list-unstyled">
+									<li className="d-flex align-items-start gap-2">
+										<i
+											className="bi bi-dot"
+											style={{ color: "#00C27C", fontSize: "1.25rem" }}></i>
+										<span>
+											<b>Smart meter integration</b> across multiple utility
+											providers and systems
+										</span>
 									</li>
-									<li>
-										<b>Consumer Disengagement and Inaction:</b> For residents,
-										energy consumption was an abstract figure on a monthly bill.
-										Generic advice to "use less energy" was ineffective without
-										context. They were unaware of their own usage patterns or
-										the specific actions they could take to make a meaningful
-										difference.
+									<li className="d-flex align-items-start gap-2">
+										<i
+											className="bi bi-dot"
+											style={{ color: "#00C27C", fontSize: "1.25rem" }}></i>
+										<span>
+											<b>Multi-stakeholder experience</b> for homeowners,
+											managers, and government
+										</span>
 									</li>
-									<li>
-										<b>A Critical Operational Disconnect:</b> The managers who
-										controlled the budget for major upgrades (like insulation or
-										heat pumps) were disconnected from the real-time consumption
-										data generated within the properties. This prevented a
-										proactive, targeted approach to decarbonization and cost
-										reduction.
+									<li className="d-flex align-items-start gap-2">
+										<i
+											className="bi bi-dot"
+											style={{ color: "#00C27C", fontSize: "1.25rem" }}></i>
+										<span>
+											<b>Sophisticated ROI modeling</b> accounting for
+											property-specific variables
+										</span>
 									</li>
-								</div>
+									<li className="d-flex align-items-start gap-2">
+										<i
+											className="bi bi-dot"
+											style={{ color: "#00C27C", fontSize: "1.25rem" }}></i>
+										<span>
+											<b>Scalable assessment systems</b> processing thousands of
+											properties efficiently
+										</span>
+									</li>
+								</ul>
 							</div>
 						</div>
 					</div>
@@ -174,7 +197,7 @@ const ProjectDetails = () => {
 					</div>
 
 					{/* Solution */}
-					<div className="row align-items-start mb-5">
+					{/* <div className="row align-items-start mb-5">
 						<div className="col-lg-4">
 							<div className="pf_fadeup">
 								<h3>Our Solution: A Dual-Sided Analytics Platform</h3>
@@ -216,7 +239,7 @@ const ProjectDetails = () => {
 								</div>
 							</div>
 						</div>
-					</div>
+					</div> */}
 					<div className="mb-5">
 						<EnerlyticsCustomerFlowchart />
 					</div>
@@ -240,45 +263,54 @@ const ProjectDetails = () => {
 					<div className="row align-items-start mb-5">
 						<div className="col-lg-4">
 							<div className="pf_fadeup">
-								<h3>Results & Impact</h3>
+								<h3>Results</h3>
 							</div>
 						</div>
 						<div className="col-lg-8">
 							<div className="pf_fadeup">
-								<p>
+								{/* <p>
 									The Enerlytics MVP we delivered successfully validated our
 									client's vision and provided immediate, tangible value to its
 									first users.
-								</p>
-								<div className="lh-lg">
-									<li>
-										<b>40% More Accurate Retrofit Prioritization:</b> The
-										platform enabled property managers to move from guesswork to
-										data-driven decisions, targeting investments where they
-										would have the greatest financial and environmental impact.
+								</p> */}
+								<ul className="lh-lg list-unstyled">
+									<li className="d-flex align-items-start gap-2">
+										<i
+											className="bi bi-dot"
+											style={{ color: "#00C27C", fontSize: "1.25rem" }}></i>
+										<span>
+											<b>40% faster energy assessments</b> from weeks to hours
+											for large portfolios
+										</span>
 									</li>
-									<li>
-										<b>15% Average Reduction in Bills for Engaged Users:</b> By
-										providing personalized, actionable tips based on their own
-										usage data, the customer dashboard empowered residents to
-										take control of their energy consumption and achieve
-										significant savings.
+									<li className="d-flex align-items-start gap-2">
+										<i
+											className="bi bi-dot"
+											style={{ color: "#00C27C", fontSize: "1.25rem" }}></i>
+										<span>
+											<b>£320,000 annual savings identified</b> across 1,248
+											managed properties
+										</span>
 									</li>
-									<li>
-										<b>Strengthened Client-Resident Relationships:</b> The
-										platform served as a positive, value-adding touchpoint,
-										demonstrating the property manager’s commitment to lowering
-										costs and improving living conditions for their residents.
+									<li className="d-flex align-items-start gap-2">
+										<i
+											className="bi bi-dot"
+											style={{ color: "#00C27C", fontSize: "1.25rem" }}></i>
+										<span>
+											<b>94.8% compliance rate</b> with automated EPC tracking
+											and reporting
+										</span>
 									</li>
-									<li>
-										<b>A Scalable Platform for a Greener Future:</b> This
-										successful MVP has provided Enerlytics with a robust and
-										validated foundation to expand its services. It showcases
-										Rovamo’s ability to tackle a complex, dual-audience
-										challenge and deliver a sleek, effective, and future-proof
-										digital product.
+									<li className="d-flex align-items-start gap-2">
+										<i
+											className="bi bi-dot"
+											style={{ color: "#00C27C", fontSize: "1.25rem" }}></i>
+										<span>
+											<b>15.3% energy consumption reduction</b> through smart
+											analytics and optimization
+										</span>
 									</li>
-								</div>
+								</ul>
 							</div>
 						</div>
 					</div>
@@ -307,9 +339,9 @@ const page = () => {
 	return (
 		<div>
 			<BreadCumb
-				Title="Enerlytics - Energy Analytics Platform "
-				 button="View Demo" 
-				 link="https://enerlytics.hellorovamo.com/"
+				Title="Enerlytics - Energy Management Platform "
+				button="View Demo"
+				link="https://enerlytics.hellorovamo.com/"
 				content="A dual-sided platform connecting property managers and residents
 through smart meter integration, providing actionable insights for energy optimization and cost savings"></BreadCumb>
 			<ProjectDetails></ProjectDetails>
@@ -319,3 +351,4 @@ through smart meter integration, providing actionable insights for energy optimi
 };
 
 export default page;
+// Title = "Enerlytics - Energy Analytics Platform ";

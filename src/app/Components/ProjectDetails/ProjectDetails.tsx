@@ -23,7 +23,7 @@ const ProjectDetails = () => {
 					</div>
 
 					{/* Intro */}
-					<div className="row align-items-start mb-5">
+					{/* <div className="row align-items-start mb-5">
 						<div className="col-lg-4">
 							<h2 className="pf_fadeup">Revalio's MVP Platform</h2>
 						</div>
@@ -43,7 +43,7 @@ const ProjectDetails = () => {
 								scalable foundation for future growth.
 							</p>
 						</div>
-					</div>
+					</div> */}
 
 					{/* Objectives */}
 					<div className="row align-items-start mb-5">
@@ -51,35 +51,23 @@ const ProjectDetails = () => {
 							<h3 className="pf_fadeup">Objectives</h3>
 						</div>
 						<div className="col-lg-8">
-							<p>
+							{/* <p>
 								In our initial discovery phase with Revalio, our team defined
 								several key objectives for the MVP to ensure it would deliver
 								immediate value and validate their business concept.
-							</p>
+							</p> */}
 							<div className="lh-lg">
 								<li>
-									<b>Centralize Core Operations:</b> To create a single source
-									of truth where all property-related activities—from tax
-									filings to tenant communications and invoicing—could be
-									managed and tracked.
+									<b>Centralize multi-property tax management </b>  across jurisdictions and deadlines
 								</li>
 								<li>
-									<b>Enhance Client & Tenant Experience:</b> To provide
-									Revalio's clients and tenants with real-time visibility into
-									their documents, requests, and payment statuses, replacing
-									ambiguity with transparency and self-service capabilities.
+									<b>Automate tax filing workflows </b> with smart reminders and status tracking
 								</li>
 								<li>
-									<b>Streamline Critical Workflows:</b> To automate and
-									accelerate key processes by implementing digital workflows for
-									document authorizations (e.g., tax forms, lease agreements)
-									and online invoice payments.
+									<b>Streamline document management </b> with secure storage and e-signatures
 								</li>
 								<li>
-									<b>Build a Scalable Foundation:</b> To develop a robust and
-									flexible MVP that could serve as the core platform for future
-									feature development, allowing the software to evolve with
-									Revalio's business needs.
+									<b>Enhance stakeholder communication</b>  through integrated messaging systems
 								</li>
 							</div>
 						</div>
@@ -106,38 +94,23 @@ const ProjectDetails = () => {
 							<h3 className="pf_fadeup">The Challenge</h3>
 						</div>
 						<div className="col-lg-8">
-							<p>
+							{/* <p>
 								When Revalio approached Rovamo, their operations were being
 								hampered by outdated, manual processes that could not keep pace
 								with their growth. The core challenges we identified were:
-							</p>
+							</p> */}
 							<div className="lh-lg">
 								<li>
-									<b>Fragmented System:</b> The team was juggling spreadsheets,
-									email inboxes, and phone calls to manage both tax appeal cases
-									and property management tasks, leading to data silos and a
-									high risk of human error.
+									<b>Multi-jurisdiction compliance</b> with varying requirements and deadlines
 								</li>
 								<li>
-									<b>Administrative Overload:</b> A significant portion of their
-									time was consumed by repetitive administrative work, such as
-									tracking down signed documents, sending payment reminders, and
-									answering routine status update questions from clients and
-									tenants.
+									<b>Secure document handling</b> for sensitive tax information and workflows
 								</li>
 								<li>
-									<b>Inefficient and Insecure Processes:</b> Critical workflows,
-									like getting lease agreements or tax authorizations signed,
-									relied on the slow print-sign-scan-email method. Exchanging
-									sensitive financial and personal information over email also
-									posed a significant security risk.
+									<b>Real-time status synchronization	</b> across properties and filing stages
 								</li>
 								<li>
-									<b>Poor User Experience:</b> The lack of a centralized system
-									meant that clients and tenants had no easy way to track
-									progress or access important information, leading to
-									frustration and a constant need to contact the Revalio team
-									directly.
+									<b>Complex payment integration</b> supporting multiple methods and invoicing
 								</li>
 							</div>
 						</div>
@@ -160,7 +133,7 @@ const ProjectDetails = () => {
 					</div>
 
 					{/* Our Solution */}
-					<div className="row align-items-start mb-5">
+					{/* <div className="row align-items-start mb-5">
 						<div className="col-lg-4">
 							<h3 className="pf_fadeup">
 								Our Solution: A Centralized MVP Platform
@@ -205,7 +178,7 @@ const ProjectDetails = () => {
 								</li>
 							</div>
 						</div>
-					</div>
+					</div> */}
 					<div className="mb-5">
 						<RevalioFlowchart />
 					</div>
@@ -229,38 +202,26 @@ const ProjectDetails = () => {
 					{/* Results & Impact */}
 					<div className="row align-items-start mb-5">
 						<div className="col-lg-4">
-							<h3 className="pf_fadeup">Results & Impact</h3>
+							<h3 className="pf_fadeup">Results</h3>
 						</div>
 						<div className="col-lg-8">
-							<p>
+							{/* <p>
 								The launch of the MVP we developed for Revalio delivered
 								immediate, measurable value and successfully validated their
 								vision for a unified platform.
-							</p>
+							</p> */}
 							<div className="lh-lg">
 								<li>
-									<b>60% Reduction in Administrative Work:</b> Our solution
-									automated key workflows, drastically cutting down the time
-									Revalio's staff spent on manual follow-ups and data entry.
+									<b>60% faster tax filing process</b>from weeks to days across portfolios
 								</li>
 								<li>
-									<b>75% Faster Document Turnaround:</b> The e-signature feature
-									we implemented reduced the average time to receive signed
-									documents from days to mere hours, accelerating everything
-									from new client onboarding to lease execution.
+									<b>Zero missed filing deadlines </b> eliminating $2,500 average penalty fees
 								</li>
 								<li>
-									<b>Strengthened Client & Tenant Trust:</b> By providing a
-									transparent, professional, and easy-to-use platform, our work
-									significantly enhanced the user experience, leading to greater
-									satisfaction and trust in the Revalio brand.
+									<b>75% faster communication</b> through centralized messaging threads
 								</li>
 								<li>
-									<b>A Platform Built for Growth:</b> This successful MVP has
-									provided Revalio with a robust and scalable foundation to
-									build upon. It demonstrates Rovamo's ability to understand a
-									complex business challenge and translate it into a tangible,
-									effective, and future-proof digital product.
+									<b>95% user satisfaction rate</b> with minimal training requirements
 								</li>
 							</div>
 						</div>
