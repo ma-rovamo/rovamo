@@ -17,10 +17,10 @@ const ServicesDetailsMVPDevelopment = () => {
 							<div className="agenko-iamge-box mb-70 pf_zoomIn">
 								<div className="agenko-image">
 									<Image
-										src="/assets/images/pages/service/single-service1.jpg"
+										src="/images/services/mvp.jpg"
 										alt="img"
 										width={1290}
-										height={500}
+										height={800}
 									/>
 								</div>
 							</div>
@@ -166,3 +166,4 @@ const MVPPage = () => {
 };
 
 export default MVPPage;
+// src="/assets/images/pages/service/single-service1.jpg"

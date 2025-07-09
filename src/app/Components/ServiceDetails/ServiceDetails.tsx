@@ -12,7 +12,7 @@ const ServiceDetails = () => {
                         
                         <div className="agenko-iamge-box mb-70 pf_zoomIn">
                             <div className="agenko-image">
-                            <Image src="/assets/images/pages/service/single-service1.jpg" alt="img" width={1290} height={500}   />
+                            <Image src="/images/services/ai-consulting.jpg" alt="img" width={1290} height={600}   />
                             </div>
                         </div>
                     </div>

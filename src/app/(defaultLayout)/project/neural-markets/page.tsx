@@ -16,7 +16,7 @@ const ProjectDetails = () => {
 									alt="img"
 									width={1290}
 									height={600}
-									className="img-fluid w-100 h-auto object-cover"
+									className="img-fluid w-100 roundedimage h-auto object-cover"
 								/>
 							</div>
 						</div>

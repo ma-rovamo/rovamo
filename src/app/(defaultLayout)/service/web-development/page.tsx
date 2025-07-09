@@ -17,7 +17,7 @@ const ServicesDetailsMVPDevelopment = () => {
 							<div className="agenko-iamge-box mb-70 pf_zoomIn">
 								<div className="agenko-image">
 									<Image
-										src="/assets/images/pages/service/single-service1.jpg"
+										src="/images/services/web-dev.jpg"
 										alt="img"
 										width={1290}
 										height={500}
