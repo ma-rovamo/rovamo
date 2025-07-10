@@ -21,11 +21,11 @@ const Pricing1 = () => {
 								<span></span>
 							</div>
 							<div className="pricing-head">
-								<span className="plan">Starter</span>
 								<h2 className="price">
 									<span className="currency">One off</span>
-									{/* <span className="currency">$</span>2,500 USD */}
 								</h2>
+								<span className="plan">Ideal for startups and small projects</span>
+									
 								<div className="cta-button d-flex justify-content-center text-center  mt-4 py-3 pf_fadeup">
 									<Link
 										href={"https://cal.com/murtaza-akbar/discovery"}
@@ -80,25 +80,24 @@ const Pricing1 = () => {
 							<div className="pricing-body flex-grow-1">
 								<ul className="check-list style-one">
 									<li>
-										<i className="bi bi-check2-square"></i>Ideal for startups
-										and small projects
+										<i className="bi bi-check2-square"></i> Core requirements discovery
+
 									</li>
 									<li>
-										<i className="bi bi-check2-square"></i>Core service delivery
+										<i className="bi bi-check2-square"></i>Standard documentation package
 									</li>
 									<li>
-										<i className="bi bi-check2-square"></i>Standard timeline
-									</li>
-									<li>
-										<i className="bi bi-check2-square"></i>Basic documentation
+										<i className="bi bi-check2-square"></i> Basic stakeholder interviews
+
 									</li>
 									<li>
 										<i className="bi bi-check2-square"></i>Email support
+
 									</li>
 									<li>
-										<i className="bi bi-check2-square"></i>15-day post-delivery
-										support
+										<i className="bi bi-check2-square"></i>15-day post-delivery support
 									</li>
+								
 								</ul>
 							</div>
 						</div>
@@ -110,11 +109,11 @@ const Pricing1 = () => {
 								<span></span>
 							</div>
 							<div className="pricing-head">
-								<span className="plan">Most popular</span>
 								<h2 className="price">
 									<span className="currency">Retainer</span>
-									{/* <span className="currency">$</span>4,500 USD */}
 								</h2>
+								<span className="plan">Most popular</span><br />
+									<span className="currency">Perfect for growing businesses</span>
 								<div className="cta-button d-flex justify-content-center text-center  mt-4 py-3 pf_fadeup">
 									<Link
 										href={"https://cal.com/murtaza-akbar/discovery"}
@@ -169,31 +168,25 @@ const Pricing1 = () => {
 							<div className="pricing-body flex-grow-1">
 								<ul className="check-list style-one">
 									<li>
-										<i className="bi bi-check2-square"></i>Perfect for growing
-										businesses
+										<i className="bi bi-check2-square"></i> Enhanced requirements analysis
+
 									</li>
 									<li>
-										<i className="bi bi-check2-square"></i>Enhanced service
-										delivery
+										<i className="bi bi-check2-square"></i>Comprehensive documentation suite
 									</li>
 									<li>
-										<i className="bi bi-check2-square"></i>Comprehensive
-										documentation
-									</li>
-									<li>
-										<i className="bi bi-check2-square"></i>Priority timeline
+										<i className="bi bi-check2-square"></i>Priority stakeholder workshops
 									</li>
 									<li>
 										<i className="bi bi-check2-square"></i>Phone + email support
 									</li>
 									<li>
-										<i className="bi bi-check2-square"></i>30-day post-delivery
-										support
+										<i className="bi bi-check2-square"></i>30-day post-delivery support
 									</li>
 									<li>
-										<i className="bi bi-check2-square"></i>1 revision round
-										included
+										<i className="bi bi-check2-square"></i>1 revision round included
 									</li>
+									
 								</ul>
 							</div>
 						</div>

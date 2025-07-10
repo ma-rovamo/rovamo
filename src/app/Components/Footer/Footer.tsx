@@ -44,8 +44,7 @@ const Footer = () => {
 								</Link>
 									</div>
 									<p>
-										Crafting intelligent solutions for tomorrow's
-										challenges
+										Crafting intelligent solutions for tomorrow's challenges
 									</p>
 									<form>
 										<div className="form-group">

@@ -31,16 +31,16 @@ const ServicesDetailsMVPDevelopment = () => {
 							<div className="agenko-content-box mb-50 pf_fadeup">
 								<div className="section-title mb-40">
 									<span className="sub-title">Description</span>
-									<h2>Product Design Success Metrics</h2>
+									<h2>Requirements Engineering Success Metrics</h2>
 								</div>
 								<div className="row">
 									<div className="col-md-6">
 										<div className="agenko-counter-item">
 											<div className="content">
 												<h2>
-													<span className="count">250</span>+
+													<span className="count">85% </span>
 												</h2>
-												<p>Projects Successfully Planned</p>
+												<p>Reduction in Scope Creep</p>
 											</div>
 										</div>
 									</div>
@@ -48,9 +48,9 @@ const ServicesDetailsMVPDevelopment = () => {
 										<div className="agenko-counter-item">
 											<div className="content">
 												<h2>
-													<span className="count">60</span>%
+													<span className="count">40</span>%
 												</h2>
-												<p>Cost Savings Through Planning</p>
+												<p>Faster Development Cycles</p>
 											</div>
 										</div>
 									</div>
@@ -60,18 +60,10 @@ const ServicesDetailsMVPDevelopment = () => {
 						<div className="col-lg-6">
 							<div className="agenko-content-box mb-50 pf_fadeup">
 								<p className="mb-20">
-									Align technical capabilities with business objectives through
-									comprehensive requirements analysis. Our consulting services
-									have saved clients 60% in development costs by preventing
-									scope creep and ensuring clear project definitions across 250+
-									successful consulting engagements.
+									Align technical capabilities with business objectives through comprehensive requirements analysis. Our consulting services have saved clients 60% in development costs by preventing scope creep and ensuring clear project definitions across 250+ successful consulting engagements.
 								</p>
 								<p className="mb-20">
-									We offer a range of specialized requirements consulting
-									services designed to address your unique project planning
-									challenges. Through innovative analysis strategies and
-									tailored solutions, our expertise ensures exceptional outcomes
-									that prevent costly mistakes.
+								We offer a range of specialized requirements consulting services designed to address your unique project planning challenges. Through innovative analysis strategies and tailored solutions, our expertise ensures exceptional outcomes that prevent costly mistakes.
 								</p>
 								{/* <ul className="check-list style-one">
                                         <li><i className="flaticon-check"></i>Passionate Problem-Solvers For Your</li>
@@ -93,30 +85,30 @@ const ProcessForALL = () => {
 		{
 			img: "/assets/images/pages/gallery/process1.jpg",
 			number: "01",
-			title: " Platform Setup & Configuration ",
+			title: " Requirements Discovery & Analysis ",
 			content:
-				"We analyze requirements, select optimal no-code platforms, configure development environments, and establish project foundations using Bubble, Webflow, and automation tools for rapid development.",
+				"We conduct comprehensive stakeholder interviews, analyze existing systems, identify business objectives, and establish project foundations using proven discovery methodologies for thorough requirements gathering.",
 		},
 		{
 			img: "/assets/images/pages/gallery/process2.jpg",
 			number: "02",
-			title: " Application Building",
+			title: " Documentation & Specification",
 			content:
-				"We design user interfaces, build application logic, create workflows, and develop features using visual development tools that enable rapid iteration and professional results without coding.",
+				"We create detailed functional specifications, document technical requirements, establish acceptance criteria, and develop comprehensive requirement documents that enable rapid iteration and professional results without ambiguity.",
 		},
 		{
 			img: "/assets/images/pages/gallery/process3.jpg",
 			number: "03",
-			title: " System Integration ",
+			title: " Validation & Prioritization ",
 			content:
-				"We connect external APIs, integrate payment systems, set up automation workflows, and link third-party services to create comprehensive solutions that meet all business requirements.",
+				"We validate requirements with stakeholders, prioritize features using proven frameworks, establish traceability matrices, and create roadmaps that ensure comprehensive solutions meet all business requirements.",
 		},
 		{
 			img: "/assets/images/pages/gallery/process4.jpg",
 			number: "04",
-			title: "Testing & Deployment ",
+			title: " Handoff & Implementation Support ",
 			content:
-				"We conduct thorough testing, optimize performance, deploy to production, and provide training to ensure seamless operation and user adoption of your new no-code application.",
+				"We conduct thorough requirement reviews, provide development team training, establish change management processes, and provide ongoing support to ensure seamless operation and user adoption of your requirements framework.",
 		},
 	];
 
