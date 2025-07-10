@@ -245,7 +245,16 @@ const ProjectDetails = () => {
 						</div>
 					</div> */}
 					<div className="mb-5">
-						<LocentrixBrandFlowchart />
+						<div className="w-full overflow-hidden">
+							<Image
+								src="/images/flowcharts/locentrix-shopping-centers-flowchart.jpg"
+								alt="Revalio Process Flowchart"
+								width={1200}
+								height={800}
+								className="w-full h-auto object-cover"
+								priority
+							/>
+						</div>
 					</div>
 					{/* Solution Image */}
 					<div className="row">

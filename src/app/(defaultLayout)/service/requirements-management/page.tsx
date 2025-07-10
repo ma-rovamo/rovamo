@@ -15,12 +15,14 @@ const ServicesDetailsMVPDevelopment = () => {
 					<div className="row">
 						<div className="col-lg-12">
 							<div className="agenko-iamge-box mb-70 pf_zoomIn">
-								<div className="agenko-image">
+								<div className="agenko-image w-full overflow-hidden">
 									<Image
 										src="/images/services/requirments.jpg"
-										alt="img"
+										alt="Requirements Engineering Services"
 										width={1290}
 										height={500}
+										className="w-full h-auto object-cover"
+										priority
 									/>
 								</div>
 							</div>
@@ -60,10 +62,18 @@ const ServicesDetailsMVPDevelopment = () => {
 						<div className="col-lg-6">
 							<div className="agenko-content-box mb-50 pf_fadeup">
 								<p className="mb-20">
-									Align technical capabilities with business objectives through comprehensive requirements analysis. Our consulting services have saved clients 60% in development costs by preventing scope creep and ensuring clear project definitions across 250+ successful consulting engagements.
+									Align technical capabilities with business objectives through
+									comprehensive requirements analysis. Our consulting services
+									have saved clients 60% in development costs by preventing
+									scope creep and ensuring clear project definitions across 250+
+									successful consulting engagements.
 								</p>
 								<p className="mb-20">
-								We offer a range of specialized requirements consulting services designed to address your unique project planning challenges. Through innovative analysis strategies and tailored solutions, our expertise ensures exceptional outcomes that prevent costly mistakes.
+									We offer a range of specialized requirements consulting
+									services designed to address your unique project planning
+									challenges. Through innovative analysis strategies and
+									tailored solutions, our expertise ensures exceptional outcomes
+									that prevent costly mistakes.
 								</p>
 								{/* <ul className="check-list style-one">
                                         <li><i className="flaticon-check"></i>Passionate Problem-Solvers For Your</li>

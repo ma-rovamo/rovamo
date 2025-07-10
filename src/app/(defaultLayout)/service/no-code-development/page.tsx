@@ -14,13 +14,15 @@ const ServicesDetailsMVPDevelopment = () => {
 				<div className="service-details-wrapper">
 					<div className="row">
 						<div className="col-lg-12">
-							<div className="agenko-iamge-box mb-70 pf_zoomIn">
-								<div className="agenko-image">
+							<div className="agenko-image-box mb-70 pf_zoomIn">
+								<div className="agenko-image w-full overflow-hidden">
 									<Image
 										src="/images/services/no-code-header.jpg"
-										alt="img"
+										alt="No-Code Development Services"
 										width={1290}
 										height={500}
+										className="w-full h-auto object-cover"
+										priority
 									/>
 								</div>
 							</div>

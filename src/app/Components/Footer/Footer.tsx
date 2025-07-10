@@ -76,7 +76,7 @@ const Footer = () => {
 											<Link href="/service/mvp-development-services">MVP Development</Link>
 										</li>
 										<li>
-											<Link href="/service/product-design">Product Design</Link>
+											<Link href="/service/product-design">  UI/UX Design</Link>
 										</li>
 										<li>
 											<Link href="/service/web-development">Web Development</Link>

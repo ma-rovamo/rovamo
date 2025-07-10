@@ -15,12 +15,14 @@ const ServicesDetailsMVPDevelopment = () => {
 					<div className="row">
 						<div className="col-lg-12">
 							<div className="agenko-iamge-box mb-70 pf_zoomIn">
-								<div className="agenko-image">
+								<div className="agenko-image w-full overflow-hidden">
 									<Image
 										src="/images/services/product-design-header.jpg"
-										alt="img"
+										alt="Product Design Services"
 										width={1290}
 										height={500}
+										className="w-full h-auto object-cover"
+										priority
 									/>
 								</div>
 							</div>
@@ -153,7 +155,7 @@ const Page = () => {
 	return (
 		<div>
 			<BreadCumb
-				Title="PRODUCT DESIGN "
+				Title="  UI UX Design "
 				content="We design intuitive, data-driven interfaces and user experiences that translate complex functionality into a simple and engaging product. Our focus is on creating a seamless journey that maximizes user adoption and satisfaction."></BreadCumb>
 			<ServicesDetailsMVPDevelopment />
 			<ProcessForALL />

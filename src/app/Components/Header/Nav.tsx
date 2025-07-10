@@ -83,7 +83,7 @@ export default function Nav({ setMobileToggle }) {
             </li>
             <li>
               <Link href="/service/product-design" onClick={() => setMobileToggle(false)}>
-              Product Design
+           UI/UX Design
               </Link>
             </li>
             <li>

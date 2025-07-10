@@ -253,7 +253,16 @@ const ProjectDetails = () => {
 					</div> */}
 
 					<div className="mb-5">
-						<EquityVantageFlowchart />
+						<div className="w-full overflow-hidden">
+							<Image
+								src="/images/flowcharts/equity-vantage-flowchart.jpg"
+								alt="Revalio Process Flowchart"
+								width={1200}
+								height={800}
+								className="w-full h-auto object-contain"
+								priority
+							/>
+						</div>
 					</div>
 
 					{/* Solution Image */}

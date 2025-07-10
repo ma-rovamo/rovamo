@@ -97,7 +97,7 @@ const HeroBanner2 = () => {
 											<i className="bi bi-lightbulb"></i>
 										</div>
 										<div className="content">
-											<h4 className="title">Product Design</h4>
+											<h4 className="title">  UI/UX Design</h4>
 											<p>Conversion-focused interfaces</p>
 										</div>
 									</Link>

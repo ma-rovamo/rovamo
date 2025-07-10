@@ -65,7 +65,7 @@ const Services2 = () => {
                                     <div className="agenko-card-item style-one mb-30 pf_fadeup">
                                         <div className="card-title">
                                             <div className="sn-number">03</div>
-                                            <h3 className="title">Product Design</h3>
+                                            <h3 className="title">UI/UX Design</h3>
                                         </div>
                                         <div className="content">
                                             <p>User research, wireframing, visual design, Figma prototypes, and conversion optimization. Create interfaces that users love and businesses benefit from.</p>
